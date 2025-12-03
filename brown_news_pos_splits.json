@@ -1,0 +1,4009 @@
+{
+  "corpus": "brown",
+  "category": "news",
+  "n_samples": 1000,
+  "train": [
+    {
+      "word": "building",
+      "tag": "VERB"
+    },
+    {
+      "word": "square",
+      "tag": "NOUN"
+    },
+    {
+      "word": "runs",
+      "tag": "NOUN"
+    },
+    {
+      "word": "reluctantly",
+      "tag": "ADV"
+    },
+    {
+      "word": "tile",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Kennedy",
+      "tag": "NOUN"
+    },
+    {
+      "word": "aggressively",
+      "tag": "ADV"
+    },
+    {
+      "word": "honor",
+      "tag": "VERB"
+    },
+    {
+      "word": "Reama",
+      "tag": "NOUN"
+    },
+    {
+      "word": "statement",
+      "tag": "NOUN"
+    },
+    {
+      "word": "thus",
+      "tag": "ADV"
+    },
+    {
+      "word": "resourcefulness",
+      "tag": "NOUN"
+    },
+    {
+      "word": "another's",
+      "tag": "DET"
+    },
+    {
+      "word": "authorized",
+      "tag": "VERB"
+    },
+    {
+      "word": "unlike",
+      "tag": "ADP"
+    },
+    {
+      "word": "first",
+      "tag": "ADJ"
+    },
+    {
+      "word": "fun-loving",
+      "tag": "ADJ"
+    },
+    {
+      "word": "unless",
+      "tag": "ADP"
+    },
+    {
+      "word": "number",
+      "tag": "NOUN"
+    },
+    {
+      "word": "special",
+      "tag": "ADJ"
+    },
+    {
+      "word": "p.m.",
+      "tag": "ADV"
+    },
+    {
+      "word": "vitality",
+      "tag": "NOUN"
+    },
+    {
+      "word": "American",
+      "tag": "ADJ"
+    },
+    {
+      "word": "movies",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Rochester",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Nugent's",
+      "tag": "NOUN"
+    },
+    {
+      "word": "told",
+      "tag": "VERB"
+    },
+    {
+      "word": "Davis",
+      "tag": "NOUN"
+    },
+    {
+      "word": "issued",
+      "tag": "VERB"
+    },
+    {
+      "word": "payments",
+      "tag": "NOUN"
+    },
+    {
+      "word": "driven",
+      "tag": "VERB"
+    },
+    {
+      "word": "deadline",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Graft",
+      "tag": "NOUN"
+    },
+    {
+      "word": "ruled",
+      "tag": "VERB"
+    },
+    {
+      "word": "compact",
+      "tag": "ADJ"
+    },
+    {
+      "word": "Police",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Dallas",
+      "tag": "NOUN"
+    },
+    {
+      "word": "disputes",
+      "tag": "NOUN"
+    },
+    {
+      "word": "reason",
+      "tag": "NOUN"
+    },
+    {
+      "word": "charged",
+      "tag": "VERB"
+    },
+    {
+      "word": "father",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Nothing",
+      "tag": "NOUN"
+    },
+    {
+      "word": "community",
+      "tag": "NOUN"
+    },
+    {
+      "word": "officially",
+      "tag": "ADV"
+    },
+    {
+      "word": "priority",
+      "tag": "NOUN"
+    },
+    {
+      "word": "night",
+      "tag": "NOUN"
+    },
+    {
+      "word": "warbling",
+      "tag": "VERB"
+    },
+    {
+      "word": "Buchheister",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Legislature",
+      "tag": "NOUN"
+    },
+    {
+      "word": "firm's",
+      "tag": "NOUN"
+    },
+    {
+      "word": "tall",
+      "tag": "ADJ"
+    },
+    {
+      "word": "neither",
+      "tag": "CONJ"
+    },
+    {
+      "word": "dedicated",
+      "tag": "VERB"
+    },
+    {
+      "word": "hold",
+      "tag": "VERB"
+    },
+    {
+      "word": "ridiculous",
+      "tag": "ADJ"
+    },
+    {
+      "word": "Boston",
+      "tag": "NOUN"
+    },
+    {
+      "word": "whiz",
+      "tag": "NOUN"
+    },
+    {
+      "word": "notice",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Communist",
+      "tag": "NOUN"
+    },
+    {
+      "word": "spent",
+      "tag": "VERB"
+    },
+    {
+      "word": "agreed",
+      "tag": "VERB"
+    },
+    {
+      "word": "Pittsburgh",
+      "tag": "NOUN"
+    },
+    {
+      "word": "struggling",
+      "tag": "VERB"
+    },
+    {
+      "word": "review",
+      "tag": "NOUN"
+    },
+    {
+      "word": "frigid",
+      "tag": "ADJ"
+    },
+    {
+      "word": "time",
+      "tag": "NOUN"
+    },
+    {
+      "word": "posted",
+      "tag": "VERB"
+    },
+    {
+      "word": "face",
+      "tag": "VERB"
+    },
+    {
+      "word": "lead",
+      "tag": "VERB"
+    },
+    {
+      "word": "made",
+      "tag": "VERB"
+    },
+    {
+      "word": "Smith",
+      "tag": "NOUN"
+    },
+    {
+      "word": "result",
+      "tag": "NOUN"
+    },
+    {
+      "word": "cent",
+      "tag": "NOUN"
+    },
+    {
+      "word": "trade",
+      "tag": "NOUN"
+    },
+    {
+      "word": "phone",
+      "tag": "NOUN"
+    },
+    {
+      "word": "orders",
+      "tag": "NOUN"
+    },
+    {
+      "word": "bank",
+      "tag": "NOUN"
+    },
+    {
+      "word": "government's",
+      "tag": "NOUN"
+    },
+    {
+      "word": "action",
+      "tag": "NOUN"
+    },
+    {
+      "word": "shop",
+      "tag": "NOUN"
+    },
+    {
+      "word": "broke",
+      "tag": "VERB"
+    },
+    {
+      "word": "extending",
+      "tag": "VERB"
+    },
+    {
+      "word": "best",
+      "tag": "ADJ"
+    },
+    {
+      "word": "Generally",
+      "tag": "ADV"
+    },
+    {
+      "word": "angry",
+      "tag": "ADJ"
+    },
+    {
+      "word": "Mary",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Peterson",
+      "tag": "NOUN"
+    },
+    {
+      "word": "immigrant",
+      "tag": "NOUN"
+    },
+    {
+      "word": "prepares",
+      "tag": "VERB"
+    },
+    {
+      "word": "Eastwick",
+      "tag": "NOUN"
+    },
+    {
+      "word": "discussions",
+      "tag": "NOUN"
+    },
+    {
+      "word": "super",
+      "tag": "ADJ"
+    },
+    {
+      "word": "made",
+      "tag": "VERB"
+    },
+    {
+      "word": "Business",
+      "tag": "NOUN"
+    },
+    {
+      "word": "expected",
+      "tag": "VERB"
+    },
+    {
+      "word": "evidence",
+      "tag": "NOUN"
+    },
+    {
+      "word": "instead",
+      "tag": "ADV"
+    },
+    {
+      "word": "August",
+      "tag": "NOUN"
+    },
+    {
+      "word": "conspiracy",
+      "tag": "NOUN"
+    },
+    {
+      "word": "dirt",
+      "tag": "NOUN"
+    },
+    {
+      "word": "also",
+      "tag": "ADV"
+    },
+    {
+      "word": "Cancer",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Monday",
+      "tag": "NOUN"
+    },
+    {
+      "word": "segregationist",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Denver's",
+      "tag": "NOUN"
+    },
+    {
+      "word": "much",
+      "tag": "ADJ"
+    },
+    {
+      "word": "affair",
+      "tag": "NOUN"
+    },
+    {
+      "word": "empires",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Sokol",
+      "tag": "NOUN"
+    },
+    {
+      "word": "meeting",
+      "tag": "NOUN"
+    },
+    {
+      "word": "putting",
+      "tag": "VERB"
+    },
+    {
+      "word": "city",
+      "tag": "NOUN"
+    },
+    {
+      "word": "rather",
+      "tag": "ADP"
+    },
+    {
+      "word": "closely",
+      "tag": "ADV"
+    },
+    {
+      "word": "pennies",
+      "tag": "NOUN"
+    },
+    {
+      "word": "congressional",
+      "tag": "ADJ"
+    },
+    {
+      "word": "John",
+      "tag": "NOUN"
+    },
+    {
+      "word": "world",
+      "tag": "NOUN"
+    },
+    {
+      "word": "sharing",
+      "tag": "VERB"
+    },
+    {
+      "word": "talks",
+      "tag": "NOUN"
+    },
+    {
+      "word": "maker",
+      "tag": "NOUN"
+    },
+    {
+      "word": "sound",
+      "tag": "ADJ"
+    },
+    {
+      "word": "private",
+      "tag": "ADJ"
+    },
+    {
+      "word": "underwriting",
+      "tag": "NOUN"
+    },
+    {
+      "word": "possible",
+      "tag": "ADJ"
+    },
+    {
+      "word": "developing",
+      "tag": "VERB"
+    },
+    {
+      "word": "organized",
+      "tag": "VERB"
+    },
+    {
+      "word": "protective",
+      "tag": "ADJ"
+    },
+    {
+      "word": "Nixon",
+      "tag": "NOUN"
+    },
+    {
+      "word": "first",
+      "tag": "ADJ"
+    },
+    {
+      "word": "committee",
+      "tag": "NOUN"
+    },
+    {
+      "word": "student",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Marr",
+      "tag": "NOUN"
+    },
+    {
+      "word": "work",
+      "tag": "NOUN"
+    },
+    {
+      "word": "side",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Pualani",
+      "tag": "NOUN"
+    },
+    {
+      "word": "ahead",
+      "tag": "ADV"
+    },
+    {
+      "word": "Hayes",
+      "tag": "NOUN"
+    },
+    {
+      "word": "staff",
+      "tag": "NOUN"
+    },
+    {
+      "word": "average",
+      "tag": "NOUN"
+    },
+    {
+      "word": "announcement",
+      "tag": "NOUN"
+    },
+    {
+      "word": "else",
+      "tag": "ADV"
+    },
+    {
+      "word": "Relations",
+      "tag": "NOUN"
+    },
+    {
+      "word": "decorators",
+      "tag": "NOUN"
+    },
+    {
+      "word": "children",
+      "tag": "NOUN"
+    },
+    {
+      "word": "enter",
+      "tag": "VERB"
+    },
+    {
+      "word": "economic",
+      "tag": "ADJ"
+    },
+    {
+      "word": "Stock",
+      "tag": "NOUN"
+    },
+    {
+      "word": "married",
+      "tag": "VERB"
+    },
+    {
+      "word": "Larry",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Carnival",
+      "tag": "NOUN"
+    },
+    {
+      "word": "today",
+      "tag": "NOUN"
+    },
+    {
+      "word": "regrettable",
+      "tag": "ADJ"
+    },
+    {
+      "word": "prospect",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Wayne",
+      "tag": "NOUN"
+    },
+    {
+      "word": "nightmare",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Bevo",
+      "tag": "NOUN"
+    },
+    {
+      "word": "imminent",
+      "tag": "ADJ"
+    },
+    {
+      "word": "month",
+      "tag": "NOUN"
+    },
+    {
+      "word": "avoid",
+      "tag": "VERB"
+    },
+    {
+      "word": "required",
+      "tag": "VERB"
+    },
+    {
+      "word": "certainly",
+      "tag": "ADV"
+    },
+    {
+      "word": "Warren",
+      "tag": "NOUN"
+    },
+    {
+      "word": "goods",
+      "tag": "NOUN"
+    },
+    {
+      "word": "work",
+      "tag": "VERB"
+    },
+    {
+      "word": "years",
+      "tag": "NOUN"
+    },
+    {
+      "word": "well",
+      "tag": "ADV"
+    },
+    {
+      "word": "season",
+      "tag": "NOUN"
+    },
+    {
+      "word": "would",
+      "tag": "VERB"
+    },
+    {
+      "word": "said",
+      "tag": "VERB"
+    },
+    {
+      "word": "Player",
+      "tag": "NOUN"
+    },
+    {
+      "word": "narcotics",
+      "tag": "NOUN"
+    },
+    {
+      "word": "stock",
+      "tag": "NOUN"
+    },
+    {
+      "word": "touch",
+      "tag": "NOUN"
+    },
+    {
+      "word": "threat",
+      "tag": "NOUN"
+    },
+    {
+      "word": "backbone",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Dallas",
+      "tag": "NOUN"
+    },
+    {
+      "word": "complete",
+      "tag": "ADJ"
+    },
+    {
+      "word": "Aug.",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Beronio",
+      "tag": "NOUN"
+    },
+    {
+      "word": "nation",
+      "tag": "NOUN"
+    },
+    {
+      "word": "springing",
+      "tag": "VERB"
+    },
+    {
+      "word": "carpeting",
+      "tag": "NOUN"
+    },
+    {
+      "word": "hearing",
+      "tag": "VERB"
+    },
+    {
+      "word": "well-stocked",
+      "tag": "ADJ"
+    },
+    {
+      "word": "paid",
+      "tag": "VERB"
+    },
+    {
+      "word": "commitments",
+      "tag": "NOUN"
+    },
+    {
+      "word": "earlier",
+      "tag": "ADV"
+    },
+    {
+      "word": "party",
+      "tag": "NOUN"
+    },
+    {
+      "word": "awakening",
+      "tag": "VERB"
+    },
+    {
+      "word": "seen",
+      "tag": "VERB"
+    },
+    {
+      "word": "favorite",
+      "tag": "ADJ"
+    },
+    {
+      "word": "nostalgic",
+      "tag": "ADJ"
+    },
+    {
+      "word": "color",
+      "tag": "NOUN"
+    },
+    {
+      "word": "First",
+      "tag": "ADJ"
+    },
+    {
+      "word": "biggest",
+      "tag": "ADJ"
+    },
+    {
+      "word": "bridegroom's",
+      "tag": "NOUN"
+    },
+    {
+      "word": "However",
+      "tag": "ADV"
+    },
+    {
+      "word": "Blanche",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Norman",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Foreign",
+      "tag": "ADJ"
+    },
+    {
+      "word": "night",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Leaders",
+      "tag": "NOUN"
+    },
+    {
+      "word": "corner",
+      "tag": "NOUN"
+    },
+    {
+      "word": "said",
+      "tag": "VERB"
+    },
+    {
+      "word": "advanced",
+      "tag": "VERB"
+    },
+    {
+      "word": "pushed",
+      "tag": "VERB"
+    },
+    {
+      "word": "learned",
+      "tag": "VERB"
+    },
+    {
+      "word": "club",
+      "tag": "NOUN"
+    },
+    {
+      "word": "demand",
+      "tag": "NOUN"
+    },
+    {
+      "word": "locker",
+      "tag": "NOUN"
+    },
+    {
+      "word": "High",
+      "tag": "ADJ"
+    },
+    {
+      "word": "Mantle",
+      "tag": "NOUN"
+    },
+    {
+      "word": "organization",
+      "tag": "NOUN"
+    },
+    {
+      "word": "office",
+      "tag": "NOUN"
+    },
+    {
+      "word": "dish",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Columbia",
+      "tag": "NOUN"
+    },
+    {
+      "word": "children",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Eastwick",
+      "tag": "NOUN"
+    },
+    {
+      "word": "McConnell's",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Writers'",
+      "tag": "NOUN"
+    },
+    {
+      "word": "many",
+      "tag": "ADJ"
+    },
+    {
+      "word": "half-mile",
+      "tag": "NOUN"
+    },
+    {
+      "word": "prices",
+      "tag": "NOUN"
+    },
+    {
+      "word": "trial",
+      "tag": "NOUN"
+    },
+    {
+      "word": "chip",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Commerce",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Park",
+      "tag": "NOUN"
+    },
+    {
+      "word": "winning",
+      "tag": "VERB"
+    },
+    {
+      "word": "executive",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Ellen",
+      "tag": "NOUN"
+    },
+    {
+      "word": "possible",
+      "tag": "ADJ"
+    },
+    {
+      "word": "called",
+      "tag": "VERB"
+    },
+    {
+      "word": "another",
+      "tag": "DET"
+    },
+    {
+      "word": "formative",
+      "tag": "ADJ"
+    },
+    {
+      "word": "rounds",
+      "tag": "NOUN"
+    },
+    {
+      "word": "back",
+      "tag": "ADV"
+    },
+    {
+      "word": "Analysts",
+      "tag": "NOUN"
+    },
+    {
+      "word": "ways",
+      "tag": "NOUN"
+    },
+    {
+      "word": "victory",
+      "tag": "NOUN"
+    },
+    {
+      "word": "affair",
+      "tag": "NOUN"
+    },
+    {
+      "word": "headache",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Porters",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Oxnard",
+      "tag": "NOUN"
+    },
+    {
+      "word": "fails",
+      "tag": "VERB"
+    },
+    {
+      "word": "Aggies",
+      "tag": "NOUN"
+    },
+    {
+      "word": "landscape",
+      "tag": "NOUN"
+    },
+    {
+      "word": "worthiest",
+      "tag": "ADJ"
+    },
+    {
+      "word": "resolution",
+      "tag": "NOUN"
+    },
+    {
+      "word": "year",
+      "tag": "NOUN"
+    },
+    {
+      "word": "back",
+      "tag": "ADV"
+    },
+    {
+      "word": "development",
+      "tag": "NOUN"
+    },
+    {
+      "word": "letters",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Catholic",
+      "tag": "ADJ"
+    },
+    {
+      "word": "ways",
+      "tag": "NOUN"
+    },
+    {
+      "word": "committees",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Vienna",
+      "tag": "NOUN"
+    },
+    {
+      "word": "amendments",
+      "tag": "NOUN"
+    },
+    {
+      "word": "right",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Mrs.",
+      "tag": "NOUN"
+    },
+    {
+      "word": "whether",
+      "tag": "ADP"
+    },
+    {
+      "word": "season",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Kennedy's",
+      "tag": "NOUN"
+    },
+    {
+      "word": "made",
+      "tag": "VERB"
+    },
+    {
+      "word": "plus",
+      "tag": "CONJ"
+    },
+    {
+      "word": "Ogden",
+      "tag": "NOUN"
+    },
+    {
+      "word": "next",
+      "tag": "ADJ"
+    },
+    {
+      "word": "Chief",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Plaza",
+      "tag": "NOUN"
+    },
+    {
+      "word": "usual",
+      "tag": "ADJ"
+    },
+    {
+      "word": "board's",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Gloriana",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Park",
+      "tag": "NOUN"
+    },
+    {
+      "word": "tiles",
+      "tag": "NOUN"
+    },
+    {
+      "word": "satisfactorily",
+      "tag": "ADV"
+    },
+    {
+      "word": "source",
+      "tag": "NOUN"
+    },
+    {
+      "word": "home",
+      "tag": "NOUN"
+    },
+    {
+      "word": "trust",
+      "tag": "NOUN"
+    },
+    {
+      "word": "interested",
+      "tag": "VERB"
+    },
+    {
+      "word": "tragedy",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Wellsley",
+      "tag": "NOUN"
+    },
+    {
+      "word": "movie",
+      "tag": "NOUN"
+    },
+    {
+      "word": "labor",
+      "tag": "NOUN"
+    },
+    {
+      "word": "spree",
+      "tag": "NOUN"
+    },
+    {
+      "word": "also",
+      "tag": "ADV"
+    },
+    {
+      "word": "U.S.",
+      "tag": "NOUN"
+    },
+    {
+      "word": "bonds",
+      "tag": "NOUN"
+    },
+    {
+      "word": "mark",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Casino",
+      "tag": "NOUN"
+    },
+    {
+      "word": "officers",
+      "tag": "NOUN"
+    },
+    {
+      "word": "secretary-treasurer",
+      "tag": "NOUN"
+    },
+    {
+      "word": "neighbor",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Leavitt",
+      "tag": "NOUN"
+    },
+    {
+      "word": "hotel",
+      "tag": "NOUN"
+    },
+    {
+      "word": "settled",
+      "tag": "VERB"
+    },
+    {
+      "word": "Florence",
+      "tag": "NOUN"
+    },
+    {
+      "word": "discovered",
+      "tag": "VERB"
+    },
+    {
+      "word": "hammered",
+      "tag": "VERB"
+    },
+    {
+      "word": "decided",
+      "tag": "VERB"
+    },
+    {
+      "word": "actually",
+      "tag": "ADV"
+    },
+    {
+      "word": "factor",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Palmer",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Moscow",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Ruth",
+      "tag": "NOUN"
+    },
+    {
+      "word": "took",
+      "tag": "VERB"
+    },
+    {
+      "word": "majority",
+      "tag": "NOUN"
+    },
+    {
+      "word": "statement",
+      "tag": "NOUN"
+    },
+    {
+      "word": "similar",
+      "tag": "ADJ"
+    },
+    {
+      "word": "heavily",
+      "tag": "ADV"
+    },
+    {
+      "word": "tickets",
+      "tag": "NOUN"
+    },
+    {
+      "word": "congressional",
+      "tag": "ADJ"
+    },
+    {
+      "word": "Stein",
+      "tag": "NOUN"
+    },
+    {
+      "word": "clear",
+      "tag": "ADJ"
+    },
+    {
+      "word": "second",
+      "tag": "ADJ"
+    },
+    {
+      "word": "bond",
+      "tag": "NOUN"
+    },
+    {
+      "word": "official",
+      "tag": "ADJ"
+    },
+    {
+      "word": "locale",
+      "tag": "NOUN"
+    },
+    {
+      "word": "hostages",
+      "tag": "NOUN"
+    },
+    {
+      "word": "find",
+      "tag": "VERB"
+    },
+    {
+      "word": "happened",
+      "tag": "VERB"
+    },
+    {
+      "word": "belting",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Mmes.",
+      "tag": "NOUN"
+    },
+    {
+      "word": "around",
+      "tag": "ADV"
+    },
+    {
+      "word": "afloat",
+      "tag": "ADV"
+    },
+    {
+      "word": "understanding",
+      "tag": "NOUN"
+    },
+    {
+      "word": "world's",
+      "tag": "NOUN"
+    },
+    {
+      "word": "honor",
+      "tag": "NOUN"
+    },
+    {
+      "word": "halfback",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Constitution",
+      "tag": "NOUN"
+    },
+    {
+      "word": "bill",
+      "tag": "NOUN"
+    },
+    {
+      "word": "response",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Island",
+      "tag": "NOUN"
+    },
+    {
+      "word": "purchased",
+      "tag": "VERB"
+    },
+    {
+      "word": "giants",
+      "tag": "NOUN"
+    },
+    {
+      "word": "would",
+      "tag": "VERB"
+    },
+    {
+      "word": "national",
+      "tag": "ADJ"
+    },
+    {
+      "word": "Ariz.",
+      "tag": "NOUN"
+    },
+    {
+      "word": "program",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Ltd.",
+      "tag": "VERB"
+    },
+    {
+      "word": "Carreon's",
+      "tag": "NOUN"
+    },
+    {
+      "word": "pro-Western",
+      "tag": "ADJ"
+    },
+    {
+      "word": "columnist",
+      "tag": "NOUN"
+    },
+    {
+      "word": "assemblies",
+      "tag": "NOUN"
+    },
+    {
+      "word": "used",
+      "tag": "VERB"
+    },
+    {
+      "word": "Coolidge",
+      "tag": "NOUN"
+    },
+    {
+      "word": "expected",
+      "tag": "VERB"
+    },
+    {
+      "word": "Carnival",
+      "tag": "NOUN"
+    },
+    {
+      "word": "became",
+      "tag": "VERB"
+    },
+    {
+      "word": "cultural",
+      "tag": "ADJ"
+    },
+    {
+      "word": "especially",
+      "tag": "ADV"
+    },
+    {
+      "word": "company",
+      "tag": "NOUN"
+    },
+    {
+      "word": "well",
+      "tag": "ADV"
+    },
+    {
+      "word": "Officer",
+      "tag": "NOUN"
+    },
+    {
+      "word": "October",
+      "tag": "NOUN"
+    },
+    {
+      "word": "bonds",
+      "tag": "NOUN"
+    },
+    {
+      "word": "temperament",
+      "tag": "NOUN"
+    },
+    {
+      "word": "highest",
+      "tag": "ADV"
+    },
+    {
+      "word": "fund",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Thursday",
+      "tag": "NOUN"
+    },
+    {
+      "word": "players",
+      "tag": "NOUN"
+    },
+    {
+      "word": "took",
+      "tag": "VERB"
+    },
+    {
+      "word": "jury",
+      "tag": "NOUN"
+    },
+    {
+      "word": "atomic",
+      "tag": "ADJ"
+    },
+    {
+      "word": "non-farm",
+      "tag": "NOUN"
+    },
+    {
+      "word": "center",
+      "tag": "NOUN"
+    },
+    {
+      "word": "said",
+      "tag": "VERB"
+    },
+    {
+      "word": "must",
+      "tag": "VERB"
+    },
+    {
+      "word": "Stone's",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Sen.",
+      "tag": "NOUN"
+    },
+    {
+      "word": "plain",
+      "tag": "ADJ"
+    },
+    {
+      "word": "depression",
+      "tag": "NOUN"
+    },
+    {
+      "word": "inconsistencies",
+      "tag": "NOUN"
+    },
+    {
+      "word": "tools",
+      "tag": "NOUN"
+    },
+    {
+      "word": "board",
+      "tag": "NOUN"
+    },
+    {
+      "word": "least",
+      "tag": "ADJ"
+    },
+    {
+      "word": "opposition",
+      "tag": "NOUN"
+    },
+    {
+      "word": "thought",
+      "tag": "VERB"
+    },
+    {
+      "word": "stock",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Also",
+      "tag": "ADV"
+    },
+    {
+      "word": "merchandising",
+      "tag": "VERB"
+    },
+    {
+      "word": "make",
+      "tag": "VERB"
+    },
+    {
+      "word": "service",
+      "tag": "NOUN"
+    },
+    {
+      "word": "border",
+      "tag": "NOUN"
+    },
+    {
+      "word": "schools",
+      "tag": "NOUN"
+    },
+    {
+      "word": "times",
+      "tag": "NOUN"
+    },
+    {
+      "word": "final",
+      "tag": "ADJ"
+    },
+    {
+      "word": "Democratic",
+      "tag": "ADJ"
+    },
+    {
+      "word": "confident",
+      "tag": "ADJ"
+    },
+    {
+      "word": "make",
+      "tag": "VERB"
+    },
+    {
+      "word": "depletion",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Buckley",
+      "tag": "NOUN"
+    },
+    {
+      "word": "identified",
+      "tag": "VERB"
+    },
+    {
+      "word": "fatal",
+      "tag": "ADJ"
+    },
+    {
+      "word": "carries",
+      "tag": "VERB"
+    },
+    {
+      "word": "merge",
+      "tag": "VERB"
+    },
+    {
+      "word": "held",
+      "tag": "VERB"
+    },
+    {
+      "word": "seventh",
+      "tag": "ADJ"
+    },
+    {
+      "word": "Youngsters",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Francis",
+      "tag": "NOUN"
+    },
+    {
+      "word": "alive",
+      "tag": "ADJ"
+    },
+    {
+      "word": "well-prepared",
+      "tag": "ADJ"
+    },
+    {
+      "word": "exciting",
+      "tag": "ADJ"
+    },
+    {
+      "word": "Frank",
+      "tag": "NOUN"
+    },
+    {
+      "word": "additional",
+      "tag": "ADJ"
+    },
+    {
+      "word": "Goodman",
+      "tag": "NOUN"
+    },
+    {
+      "word": "memory",
+      "tag": "NOUN"
+    },
+    {
+      "word": "tough",
+      "tag": "ADJ"
+    },
+    {
+      "word": "must",
+      "tag": "VERB"
+    },
+    {
+      "word": "conferences",
+      "tag": "NOUN"
+    },
+    {
+      "word": "mother",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Wednesday",
+      "tag": "NOUN"
+    },
+    {
+      "word": "decisions",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Sen.",
+      "tag": "NOUN"
+    },
+    {
+      "word": "economy",
+      "tag": "NOUN"
+    },
+    {
+      "word": "food",
+      "tag": "NOUN"
+    },
+    {
+      "word": "summer",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Portland's",
+      "tag": "NOUN"
+    },
+    {
+      "word": "firm",
+      "tag": "NOUN"
+    },
+    {
+      "word": "days",
+      "tag": "NOUN"
+    },
+    {
+      "word": "years",
+      "tag": "NOUN"
+    },
+    {
+      "word": "talks",
+      "tag": "VERB"
+    },
+    {
+      "word": "make",
+      "tag": "VERB"
+    },
+    {
+      "word": "first",
+      "tag": "ADJ"
+    },
+    {
+      "word": "Even",
+      "tag": "ADV"
+    },
+    {
+      "word": "foster",
+      "tag": "ADJ"
+    },
+    {
+      "word": "breasts",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Smith",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Decathlon",
+      "tag": "NOUN"
+    },
+    {
+      "word": "sectors",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Frankie",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Reese",
+      "tag": "NOUN"
+    },
+    {
+      "word": "hitched",
+      "tag": "VERB"
+    },
+    {
+      "word": "breakoff",
+      "tag": "NOUN"
+    },
+    {
+      "word": "transportation",
+      "tag": "NOUN"
+    },
+    {
+      "word": "System",
+      "tag": "NOUN"
+    },
+    {
+      "word": "records",
+      "tag": "NOUN"
+    },
+    {
+      "word": "made",
+      "tag": "VERB"
+    },
+    {
+      "word": "Court",
+      "tag": "NOUN"
+    },
+    {
+      "word": "raised",
+      "tag": "VERB"
+    },
+    {
+      "word": "business",
+      "tag": "NOUN"
+    },
+    {
+      "word": "game",
+      "tag": "NOUN"
+    },
+    {
+      "word": "hull",
+      "tag": "NOUN"
+    },
+    {
+      "word": "British",
+      "tag": "NOUN"
+    },
+    {
+      "word": "comes",
+      "tag": "VERB"
+    },
+    {
+      "word": "Presently",
+      "tag": "ADV"
+    },
+    {
+      "word": "trailed",
+      "tag": "VERB"
+    },
+    {
+      "word": "Angelico",
+      "tag": "NOUN"
+    },
+    {
+      "word": "joint",
+      "tag": "NOUN"
+    },
+    {
+      "word": "populous",
+      "tag": "ADJ"
+    },
+    {
+      "word": "Bay-front",
+      "tag": "NOUN"
+    },
+    {
+      "word": "also",
+      "tag": "ADV"
+    },
+    {
+      "word": "McAlester",
+      "tag": "NOUN"
+    },
+    {
+      "word": "income",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Toys",
+      "tag": "NOUN"
+    },
+    {
+      "word": "deeply",
+      "tag": "ADV"
+    },
+    {
+      "word": "nodded",
+      "tag": "VERB"
+    },
+    {
+      "word": "nothing",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Texas",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Willamette",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Richard",
+      "tag": "NOUN"
+    },
+    {
+      "word": "stretch",
+      "tag": "VERB"
+    },
+    {
+      "word": "college",
+      "tag": "NOUN"
+    },
+    {
+      "word": "authorizing",
+      "tag": "VERB"
+    },
+    {
+      "word": "Clinton",
+      "tag": "NOUN"
+    },
+    {
+      "word": "argument",
+      "tag": "NOUN"
+    },
+    {
+      "word": "process",
+      "tag": "NOUN"
+    },
+    {
+      "word": "attorney",
+      "tag": "NOUN"
+    },
+    {
+      "word": "level",
+      "tag": "NOUN"
+    },
+    {
+      "word": "last",
+      "tag": "ADJ"
+    },
+    {
+      "word": "called",
+      "tag": "VERB"
+    },
+    {
+      "word": "attack",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Tunisia",
+      "tag": "NOUN"
+    },
+    {
+      "word": "maitre",
+      "tag": "X"
+    },
+    {
+      "word": "next",
+      "tag": "ADJ"
+    },
+    {
+      "word": "home",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Dave",
+      "tag": "NOUN"
+    },
+    {
+      "word": "April",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Cuba",
+      "tag": "NOUN"
+    },
+    {
+      "word": "graduates",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Galveston",
+      "tag": "NOUN"
+    },
+    {
+      "word": "came",
+      "tag": "VERB"
+    },
+    {
+      "word": "keynote",
+      "tag": "VERB"
+    },
+    {
+      "word": "grand",
+      "tag": "ADJ"
+    },
+    {
+      "word": "Shreveport",
+      "tag": "NOUN"
+    },
+    {
+      "word": "misunderstanding",
+      "tag": "NOUN"
+    },
+    {
+      "word": "medical",
+      "tag": "ADJ"
+    },
+    {
+      "word": "Mantle's",
+      "tag": "NOUN"
+    },
+    {
+      "word": "county",
+      "tag": "NOUN"
+    },
+    {
+      "word": "worked",
+      "tag": "VERB"
+    },
+    {
+      "word": "braced",
+      "tag": "VERB"
+    },
+    {
+      "word": "King",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Kennedy's",
+      "tag": "NOUN"
+    },
+    {
+      "word": "could",
+      "tag": "VERB"
+    },
+    {
+      "word": "education",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Pelham",
+      "tag": "NOUN"
+    },
+    {
+      "word": "little",
+      "tag": "ADV"
+    },
+    {
+      "word": "allowed",
+      "tag": "VERB"
+    },
+    {
+      "word": "guests",
+      "tag": "NOUN"
+    },
+    {
+      "word": "negotiations",
+      "tag": "NOUN"
+    },
+    {
+      "word": "deserves",
+      "tag": "VERB"
+    },
+    {
+      "word": "Avenue",
+      "tag": "NOUN"
+    },
+    {
+      "word": "interesting",
+      "tag": "ADJ"
+    },
+    {
+      "word": "recommended",
+      "tag": "VERB"
+    },
+    {
+      "word": "lowest",
+      "tag": "ADJ"
+    },
+    {
+      "word": "attack",
+      "tag": "NOUN"
+    },
+    {
+      "word": "days",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Eisenhower",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Supreme",
+      "tag": "ADJ"
+    },
+    {
+      "word": "King",
+      "tag": "NOUN"
+    },
+    {
+      "word": "arrangements",
+      "tag": "NOUN"
+    },
+    {
+      "word": "academic",
+      "tag": "ADJ"
+    },
+    {
+      "word": "Congolese",
+      "tag": "ADJ"
+    },
+    {
+      "word": "Department",
+      "tag": "NOUN"
+    },
+    {
+      "word": "month",
+      "tag": "NOUN"
+    },
+    {
+      "word": "barely",
+      "tag": "ADV"
+    },
+    {
+      "word": "help",
+      "tag": "NOUN"
+    },
+    {
+      "word": "21-year-old",
+      "tag": "ADJ"
+    },
+    {
+      "word": "demand",
+      "tag": "NOUN"
+    },
+    {
+      "word": "married",
+      "tag": "VERB"
+    },
+    {
+      "word": "ranked",
+      "tag": "VERB"
+    },
+    {
+      "word": "Campus",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Highway",
+      "tag": "NOUN"
+    },
+    {
+      "word": "provisional",
+      "tag": "ADJ"
+    },
+    {
+      "word": "running",
+      "tag": "VERB"
+    },
+    {
+      "word": "fallout",
+      "tag": "NOUN"
+    },
+    {
+      "word": "record",
+      "tag": "NOUN"
+    },
+    {
+      "word": "play",
+      "tag": "VERB"
+    },
+    {
+      "word": "fine",
+      "tag": "ADJ"
+    },
+    {
+      "word": "success",
+      "tag": "NOUN"
+    },
+    {
+      "word": "$300",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Indonesia",
+      "tag": "NOUN"
+    },
+    {
+      "word": "scholarships",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Attorney",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Havana",
+      "tag": "NOUN"
+    },
+    {
+      "word": "distance",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Saul",
+      "tag": "NOUN"
+    },
+    {
+      "word": "east",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Moss",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Kercheval",
+      "tag": "NOUN"
+    },
+    {
+      "word": "said",
+      "tag": "VERB"
+    },
+    {
+      "word": "unprepared",
+      "tag": "ADJ"
+    },
+    {
+      "word": "attorney",
+      "tag": "NOUN"
+    },
+    {
+      "word": "yesterday",
+      "tag": "NOUN"
+    },
+    {
+      "word": "cases",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Communism",
+      "tag": "NOUN"
+    },
+    {
+      "word": "indicated",
+      "tag": "VERB"
+    },
+    {
+      "word": "technical",
+      "tag": "ADJ"
+    },
+    {
+      "word": "fighting",
+      "tag": "VERB"
+    },
+    {
+      "word": "undeveloped",
+      "tag": "ADJ"
+    },
+    {
+      "word": "prospective",
+      "tag": "ADJ"
+    },
+    {
+      "word": "employee",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Nicholas",
+      "tag": "NOUN"
+    },
+    {
+      "word": "refurbishing",
+      "tag": "NOUN"
+    },
+    {
+      "word": "course",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Actually",
+      "tag": "ADV"
+    },
+    {
+      "word": "boys",
+      "tag": "NOUN"
+    },
+    {
+      "word": "discarded",
+      "tag": "VERB"
+    },
+    {
+      "word": "name",
+      "tag": "NOUN"
+    },
+    {
+      "word": "chum",
+      "tag": "NOUN"
+    },
+    {
+      "word": "show",
+      "tag": "NOUN"
+    },
+    {
+      "word": "getting",
+      "tag": "VERB"
+    },
+    {
+      "word": "George",
+      "tag": "NOUN"
+    },
+    {
+      "word": "spending",
+      "tag": "VERB"
+    },
+    {
+      "word": "President's",
+      "tag": "NOUN"
+    },
+    {
+      "word": "frankness",
+      "tag": "NOUN"
+    },
+    {
+      "word": "confirm",
+      "tag": "VERB"
+    },
+    {
+      "word": "insure",
+      "tag": "VERB"
+    },
+    {
+      "word": "Packers",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Kappa",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Dignity",
+      "tag": "NOUN"
+    },
+    {
+      "word": "minor",
+      "tag": "ADJ"
+    },
+    {
+      "word": "introduced",
+      "tag": "VERB"
+    },
+    {
+      "word": "Sheraton-Dallas",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Willie",
+      "tag": "NOUN"
+    },
+    {
+      "word": "name",
+      "tag": "NOUN"
+    },
+    {
+      "word": "sales",
+      "tag": "NOUN"
+    },
+    {
+      "word": "learn",
+      "tag": "VERB"
+    },
+    {
+      "word": "blasting",
+      "tag": "VERB"
+    },
+    {
+      "word": "triple",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Interstate",
+      "tag": "ADJ"
+    },
+    {
+      "word": "Ballet",
+      "tag": "NOUN"
+    },
+    {
+      "word": "steps",
+      "tag": "NOUN"
+    },
+    {
+      "word": "wiped",
+      "tag": "VERB"
+    },
+    {
+      "word": "tiny",
+      "tag": "ADJ"
+    },
+    {
+      "word": "rules",
+      "tag": "NOUN"
+    },
+    {
+      "word": "vital",
+      "tag": "ADJ"
+    },
+    {
+      "word": "since",
+      "tag": "ADP"
+    },
+    {
+      "word": "Jackson",
+      "tag": "NOUN"
+    },
+    {
+      "word": "close",
+      "tag": "ADV"
+    },
+    {
+      "word": "Georgia's",
+      "tag": "NOUN"
+    },
+    {
+      "word": "slated",
+      "tag": "VERB"
+    },
+    {
+      "word": "comprise",
+      "tag": "VERB"
+    },
+    {
+      "word": "Delta",
+      "tag": "NOUN"
+    },
+    {
+      "word": "bird",
+      "tag": "NOUN"
+    },
+    {
+      "word": "considered",
+      "tag": "VERB"
+    },
+    {
+      "word": "president",
+      "tag": "NOUN"
+    },
+    {
+      "word": "toward",
+      "tag": "ADP"
+    },
+    {
+      "word": "said",
+      "tag": "VERB"
+    },
+    {
+      "word": "high-sounding",
+      "tag": "ADJ"
+    },
+    {
+      "word": "sacrifice",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Siebern",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Chases",
+      "tag": "NOUN"
+    },
+    {
+      "word": "predicted",
+      "tag": "VERB"
+    },
+    {
+      "word": "attorney",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Premier",
+      "tag": "NOUN"
+    },
+    {
+      "word": "flavor",
+      "tag": "NOUN"
+    },
+    {
+      "word": "measures",
+      "tag": "NOUN"
+    },
+    {
+      "word": "alternative",
+      "tag": "ADJ"
+    },
+    {
+      "word": "investors",
+      "tag": "NOUN"
+    },
+    {
+      "word": "difference",
+      "tag": "NOUN"
+    },
+    {
+      "word": "jobs",
+      "tag": "NOUN"
+    },
+    {
+      "word": "demands",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Senator",
+      "tag": "NOUN"
+    },
+    {
+      "word": "design",
+      "tag": "NOUN"
+    },
+    {
+      "word": "rate",
+      "tag": "NOUN"
+    },
+    {
+      "word": "need",
+      "tag": "VERB"
+    },
+    {
+      "word": "remember",
+      "tag": "VERB"
+    },
+    {
+      "word": "Although",
+      "tag": "ADP"
+    },
+    {
+      "word": "last",
+      "tag": "ADJ"
+    },
+    {
+      "word": "Kegham",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Shamrock",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Perhaps",
+      "tag": "ADV"
+    },
+    {
+      "word": "went",
+      "tag": "VERB"
+    },
+    {
+      "word": "comfort",
+      "tag": "NOUN"
+    },
+    {
+      "word": "must",
+      "tag": "VERB"
+    },
+    {
+      "word": "prize",
+      "tag": "NOUN"
+    },
+    {
+      "word": "block",
+      "tag": "NOUN"
+    },
+    {
+      "word": "long",
+      "tag": "ADV"
+    },
+    {
+      "word": "Marine",
+      "tag": "NOUN"
+    },
+    {
+      "word": "last-round",
+      "tag": "NOUN"
+    },
+    {
+      "word": "called",
+      "tag": "VERB"
+    },
+    {
+      "word": "Sprinkel",
+      "tag": "NOUN"
+    },
+    {
+      "word": "guilty",
+      "tag": "ADJ"
+    },
+    {
+      "word": "officered",
+      "tag": "VERB"
+    },
+    {
+      "word": "guardians",
+      "tag": "NOUN"
+    },
+    {
+      "word": "candidate",
+      "tag": "NOUN"
+    },
+    {
+      "word": "land",
+      "tag": "NOUN"
+    },
+    {
+      "word": "vacationing",
+      "tag": "VERB"
+    },
+    {
+      "word": "President",
+      "tag": "NOUN"
+    },
+    {
+      "word": "month",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Milties",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Dicks",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Locked",
+      "tag": "VERB"
+    },
+    {
+      "word": "president",
+      "tag": "NOUN"
+    },
+    {
+      "word": "existence",
+      "tag": "NOUN"
+    },
+    {
+      "word": "wardens",
+      "tag": "NOUN"
+    },
+    {
+      "word": "like",
+      "tag": "ADP"
+    },
+    {
+      "word": "effective",
+      "tag": "ADJ"
+    },
+    {
+      "word": "Solly",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Mrs.",
+      "tag": "NOUN"
+    },
+    {
+      "word": "driver",
+      "tag": "NOUN"
+    },
+    {
+      "word": "debuting",
+      "tag": "VERB"
+    },
+    {
+      "word": "plus",
+      "tag": "CONJ"
+    },
+    {
+      "word": "said",
+      "tag": "VERB"
+    },
+    {
+      "word": "addition",
+      "tag": "NOUN"
+    },
+    {
+      "word": "peace-loving",
+      "tag": "ADJ"
+    },
+    {
+      "word": "exercise",
+      "tag": "VERB"
+    },
+    {
+      "word": "sisters",
+      "tag": "NOUN"
+    },
+    {
+      "word": "beginning",
+      "tag": "NOUN"
+    },
+    {
+      "word": "year's",
+      "tag": "NOUN"
+    },
+    {
+      "word": "coming",
+      "tag": "VERB"
+    },
+    {
+      "word": "going",
+      "tag": "VERB"
+    },
+    {
+      "word": "Reama",
+      "tag": "NOUN"
+    },
+    {
+      "word": "industry",
+      "tag": "NOUN"
+    },
+    {
+      "word": "$39.5",
+      "tag": "NOUN"
+    },
+    {
+      "word": "market",
+      "tag": "NOUN"
+    },
+    {
+      "word": "past",
+      "tag": "ADP"
+    },
+    {
+      "word": "handed",
+      "tag": "VERB"
+    },
+    {
+      "word": "ordinance",
+      "tag": "NOUN"
+    },
+    {
+      "word": "cautious",
+      "tag": "ADJ"
+    },
+    {
+      "word": "homes",
+      "tag": "NOUN"
+    },
+    {
+      "word": "efforts",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Congressman",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Southern",
+      "tag": "ADJ"
+    },
+    {
+      "word": "program",
+      "tag": "NOUN"
+    },
+    {
+      "word": "concerned",
+      "tag": "VERB"
+    },
+    {
+      "word": "cease-fire",
+      "tag": "NOUN"
+    },
+    {
+      "word": "pretext",
+      "tag": "NOUN"
+    },
+    {
+      "word": "state",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Williams",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Birmingham",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Must",
+      "tag": "VERB"
+    },
+    {
+      "word": "member",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Sorrentino",
+      "tag": "NOUN"
+    },
+    {
+      "word": "aspect",
+      "tag": "NOUN"
+    },
+    {
+      "word": "northernmost",
+      "tag": "ADJ"
+    },
+    {
+      "word": "Associated",
+      "tag": "VERB"
+    },
+    {
+      "word": "policemen",
+      "tag": "NOUN"
+    },
+    {
+      "word": "weekend",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Snodgrass",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Cinemactor",
+      "tag": "NOUN"
+    },
+    {
+      "word": "announce",
+      "tag": "VERB"
+    },
+    {
+      "word": "science",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Buddy",
+      "tag": "NOUN"
+    },
+    {
+      "word": "matching",
+      "tag": "VERB"
+    },
+    {
+      "word": "level",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Legislature",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Stein's",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Plan",
+      "tag": "NOUN"
+    },
+    {
+      "word": "military",
+      "tag": "ADJ"
+    },
+    {
+      "word": "week",
+      "tag": "NOUN"
+    },
+    {
+      "word": "good",
+      "tag": "ADJ"
+    },
+    {
+      "word": "away",
+      "tag": "ADV"
+    },
+    {
+      "word": "Memorial",
+      "tag": "ADJ"
+    },
+    {
+      "word": "Service",
+      "tag": "NOUN"
+    },
+    {
+      "word": "bows",
+      "tag": "VERB"
+    },
+    {
+      "word": "selfish",
+      "tag": "ADJ"
+    },
+    {
+      "word": "would",
+      "tag": "VERB"
+    },
+    {
+      "word": "meet",
+      "tag": "VERB"
+    },
+    {
+      "word": "Congo",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Orchestra",
+      "tag": "NOUN"
+    },
+    {
+      "word": "School",
+      "tag": "NOUN"
+    },
+    {
+      "word": "ball",
+      "tag": "NOUN"
+    },
+    {
+      "word": "intervention",
+      "tag": "NOUN"
+    },
+    {
+      "word": "told",
+      "tag": "VERB"
+    },
+    {
+      "word": "afford",
+      "tag": "VERB"
+    },
+    {
+      "word": "Secretary",
+      "tag": "NOUN"
+    },
+    {
+      "word": "collected",
+      "tag": "VERB"
+    },
+    {
+      "word": "provided",
+      "tag": "VERB"
+    },
+    {
+      "word": "really",
+      "tag": "ADV"
+    },
+    {
+      "word": "would",
+      "tag": "VERB"
+    },
+    {
+      "word": "engineers",
+      "tag": "NOUN"
+    },
+    {
+      "word": "poultry",
+      "tag": "NOUN"
+    },
+    {
+      "word": "standard",
+      "tag": "ADJ"
+    },
+    {
+      "word": "processing",
+      "tag": "NOUN"
+    },
+    {
+      "word": "think",
+      "tag": "VERB"
+    },
+    {
+      "word": "decried",
+      "tag": "VERB"
+    },
+    {
+      "word": "state",
+      "tag": "NOUN"
+    },
+    {
+      "word": "gauntlet",
+      "tag": "NOUN"
+    },
+    {
+      "word": "attacking",
+      "tag": "VERB"
+    },
+    {
+      "word": "point",
+      "tag": "NOUN"
+    },
+    {
+      "word": "soon",
+      "tag": "ADV"
+    },
+    {
+      "word": "Nixon",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Dick",
+      "tag": "NOUN"
+    },
+    {
+      "word": "reported",
+      "tag": "VERB"
+    },
+    {
+      "word": "losses",
+      "tag": "NOUN"
+    },
+    {
+      "word": "state",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Robbins",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Highway",
+      "tag": "NOUN"
+    },
+    {
+      "word": "staffs",
+      "tag": "NOUN"
+    },
+    {
+      "word": "unmarried",
+      "tag": "ADJ"
+    },
+    {
+      "word": "dividend",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Saxton",
+      "tag": "NOUN"
+    },
+    {
+      "word": "hours",
+      "tag": "NOUN"
+    },
+    {
+      "word": "scenic",
+      "tag": "ADJ"
+    },
+    {
+      "word": "boys",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Russia",
+      "tag": "NOUN"
+    },
+    {
+      "word": "implicit",
+      "tag": "ADJ"
+    },
+    {
+      "word": "convinced",
+      "tag": "VERB"
+    },
+    {
+      "word": "policy",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Sanger-Harris",
+      "tag": "NOUN"
+    },
+    {
+      "word": "came",
+      "tag": "VERB"
+    },
+    {
+      "word": "problems",
+      "tag": "NOUN"
+    },
+    {
+      "word": "slipper",
+      "tag": "NOUN"
+    },
+    {
+      "word": "thought",
+      "tag": "VERB"
+    },
+    {
+      "word": "textile",
+      "tag": "NOUN"
+    },
+    {
+      "word": "difficulty",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Somerset",
+      "tag": "NOUN"
+    },
+    {
+      "word": "bond",
+      "tag": "NOUN"
+    },
+    {
+      "word": "trying",
+      "tag": "VERB"
+    },
+    {
+      "word": "voted",
+      "tag": "VERB"
+    },
+    {
+      "word": "collective",
+      "tag": "ADJ"
+    },
+    {
+      "word": "Calls",
+      "tag": "VERB"
+    },
+    {
+      "word": "said",
+      "tag": "VERB"
+    },
+    {
+      "word": "trouble",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Severna",
+      "tag": "NOUN"
+    },
+    {
+      "word": "across",
+      "tag": "ADP"
+    },
+    {
+      "word": "Johnny",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Mrs.",
+      "tag": "NOUN"
+    },
+    {
+      "word": "civil",
+      "tag": "ADJ"
+    },
+    {
+      "word": "expected",
+      "tag": "VERB"
+    },
+    {
+      "word": "Austin",
+      "tag": "NOUN"
+    },
+    {
+      "word": "beliefs",
+      "tag": "NOUN"
+    },
+    {
+      "word": "system",
+      "tag": "NOUN"
+    },
+    {
+      "word": "fashion",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Grant",
+      "tag": "NOUN"
+    },
+    {
+      "word": "planning",
+      "tag": "NOUN"
+    },
+    {
+      "word": "session",
+      "tag": "NOUN"
+    },
+    {
+      "word": "executive",
+      "tag": "NOUN"
+    },
+    {
+      "word": "ranged",
+      "tag": "VERB"
+    },
+    {
+      "word": "painter",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Robinsonville",
+      "tag": "NOUN"
+    },
+    {
+      "word": "reads",
+      "tag": "VERB"
+    },
+    {
+      "word": "Shea",
+      "tag": "NOUN"
+    },
+    {
+      "word": "juror",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Ballet",
+      "tag": "X"
+    },
+    {
+      "word": "sliced",
+      "tag": "VERB"
+    },
+    {
+      "word": "said",
+      "tag": "VERB"
+    },
+    {
+      "word": "Thursday",
+      "tag": "NOUN"
+    },
+    {
+      "word": "state",
+      "tag": "NOUN"
+    },
+    {
+      "word": "South",
+      "tag": "ADJ"
+    },
+    {
+      "word": "workers",
+      "tag": "NOUN"
+    },
+    {
+      "word": "medical",
+      "tag": "ADJ"
+    },
+    {
+      "word": "Greenberg",
+      "tag": "NOUN"
+    },
+    {
+      "word": "said",
+      "tag": "VERB"
+    },
+    {
+      "word": "prepayment",
+      "tag": "NOUN"
+    },
+    {
+      "word": "April",
+      "tag": "NOUN"
+    },
+    {
+      "word": "local",
+      "tag": "ADJ"
+    },
+    {
+      "word": "rulers",
+      "tag": "NOUN"
+    },
+    {
+      "word": "unlikely",
+      "tag": "ADJ"
+    },
+    {
+      "word": "control",
+      "tag": "VERB"
+    },
+    {
+      "word": "Polytechnic",
+      "tag": "ADJ"
+    },
+    {
+      "word": "designed",
+      "tag": "VERB"
+    },
+    {
+      "word": "round",
+      "tag": "NOUN"
+    },
+    {
+      "word": "gaining",
+      "tag": "VERB"
+    },
+    {
+      "word": "Hong",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Birds'",
+      "tag": "NOUN"
+    },
+    {
+      "word": "candidate",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Councilman",
+      "tag": "NOUN"
+    },
+    {
+      "word": "began",
+      "tag": "VERB"
+    },
+    {
+      "word": "Trade",
+      "tag": "NOUN"
+    },
+    {
+      "word": "kicked",
+      "tag": "VERB"
+    },
+    {
+      "word": "lace",
+      "tag": "NOUN"
+    },
+    {
+      "word": "vice-president",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Oriental",
+      "tag": "ADJ"
+    },
+    {
+      "word": "week",
+      "tag": "NOUN"
+    },
+    {
+      "word": "filled",
+      "tag": "VERB"
+    },
+    {
+      "word": "opposed",
+      "tag": "VERB"
+    },
+    {
+      "word": "complex",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Street",
+      "tag": "NOUN"
+    },
+    {
+      "word": "seek",
+      "tag": "VERB"
+    },
+    {
+      "word": "plays",
+      "tag": "NOUN"
+    },
+    {
+      "word": "arrested",
+      "tag": "VERB"
+    },
+    {
+      "word": "negotiations",
+      "tag": "NOUN"
+    },
+    {
+      "word": "beliefs",
+      "tag": "NOUN"
+    },
+    {
+      "word": "shop",
+      "tag": "NOUN"
+    },
+    {
+      "word": "states",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Thursday",
+      "tag": "NOUN"
+    },
+    {
+      "word": "city",
+      "tag": "NOUN"
+    },
+    {
+      "word": "COAHR",
+      "tag": "NOUN"
+    },
+    {
+      "word": "available",
+      "tag": "ADJ"
+    },
+    {
+      "word": "course",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Beyond",
+      "tag": "ADP"
+    },
+    {
+      "word": "home",
+      "tag": "NOUN"
+    },
+    {
+      "word": "burned",
+      "tag": "VERB"
+    },
+    {
+      "word": "dancers",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Texas",
+      "tag": "NOUN"
+    },
+    {
+      "word": "combat",
+      "tag": "VERB"
+    },
+    {
+      "word": "peaks",
+      "tag": "NOUN"
+    },
+    {
+      "word": "last",
+      "tag": "ADJ"
+    },
+    {
+      "word": "expected",
+      "tag": "VERB"
+    },
+    {
+      "word": "walk",
+      "tag": "VERB"
+    },
+    {
+      "word": "model",
+      "tag": "NOUN"
+    },
+    {
+      "word": "delivery",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Palm",
+      "tag": "NOUN"
+    },
+    {
+      "word": "suffrage",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Fields",
+      "tag": "NOUN"
+    },
+    {
+      "word": "$1.4",
+      "tag": "NOUN"
+    },
+    {
+      "word": "certain",
+      "tag": "ADJ"
+    },
+    {
+      "word": "continent",
+      "tag": "NOUN"
+    },
+    {
+      "word": "tactic",
+      "tag": "NOUN"
+    },
+    {
+      "word": "equipment",
+      "tag": "NOUN"
+    },
+    {
+      "word": "groups",
+      "tag": "NOUN"
+    },
+    {
+      "word": "area",
+      "tag": "NOUN"
+    },
+    {
+      "word": "belief",
+      "tag": "NOUN"
+    },
+    {
+      "word": "escaping",
+      "tag": "VERB"
+    },
+    {
+      "word": "past",
+      "tag": "NOUN"
+    },
+    {
+      "word": "adverse",
+      "tag": "ADJ"
+    },
+    {
+      "word": "science",
+      "tag": "NOUN"
+    },
+    {
+      "word": "state",
+      "tag": "NOUN"
+    },
+    {
+      "word": "construction",
+      "tag": "NOUN"
+    },
+    {
+      "word": "expert",
+      "tag": "NOUN"
+    },
+    {
+      "word": "posed",
+      "tag": "VERB"
+    },
+    {
+      "word": "Shaw",
+      "tag": "NOUN"
+    },
+    {
+      "word": "courses",
+      "tag": "NOUN"
+    },
+    {
+      "word": "World",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Moscow",
+      "tag": "NOUN"
+    },
+    {
+      "word": "fell",
+      "tag": "VERB"
+    },
+    {
+      "word": "court",
+      "tag": "NOUN"
+    },
+    {
+      "word": "would",
+      "tag": "VERB"
+    },
+    {
+      "word": "Puerto",
+      "tag": "NOUN"
+    },
+    {
+      "word": "broke",
+      "tag": "VERB"
+    },
+    {
+      "word": "hill",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Dussa",
+      "tag": "NOUN"
+    },
+    {
+      "word": "former",
+      "tag": "ADJ"
+    },
+    {
+      "word": "broke",
+      "tag": "VERB"
+    },
+    {
+      "word": "play",
+      "tag": "VERB"
+    },
+    {
+      "word": "Geraldine",
+      "tag": "NOUN"
+    },
+    {
+      "word": "bonds",
+      "tag": "NOUN"
+    },
+    {
+      "word": "attorney",
+      "tag": "NOUN"
+    },
+    {
+      "word": "long-bodied",
+      "tag": "ADJ"
+    },
+    {
+      "word": "votes",
+      "tag": "NOUN"
+    },
+    {
+      "word": "fight",
+      "tag": "NOUN"
+    },
+    {
+      "word": "medical",
+      "tag": "ADJ"
+    },
+    {
+      "word": "reveal",
+      "tag": "VERB"
+    },
+    {
+      "word": "Birmingham",
+      "tag": "NOUN"
+    },
+    {
+      "word": "service",
+      "tag": "NOUN"
+    },
+    {
+      "word": "disappointing",
+      "tag": "ADJ"
+    },
+    {
+      "word": "church's",
+      "tag": "NOUN"
+    },
+    {
+      "word": "crossing",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Berry",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Clayton",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Kowalski",
+      "tag": "NOUN"
+    },
+    {
+      "word": "streets",
+      "tag": "NOUN"
+    },
+    {
+      "word": "witness",
+      "tag": "NOUN"
+    },
+    {
+      "word": "discrimination",
+      "tag": "NOUN"
+    },
+    {
+      "word": "fiction",
+      "tag": "NOUN"
+    },
+    {
+      "word": "acceptance",
+      "tag": "NOUN"
+    },
+    {
+      "word": "disbanded",
+      "tag": "VERB"
+    },
+    {
+      "word": "Charles",
+      "tag": "NOUN"
+    }
+  ],
+  "test": [
+    {
+      "word": "hitting",
+      "tag": "VERB"
+    },
+    {
+      "word": "Irina",
+      "tag": "NOUN"
+    },
+    {
+      "word": "season",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Tarrant",
+      "tag": "NOUN"
+    },
+    {
+      "word": "problem",
+      "tag": "NOUN"
+    },
+    {
+      "word": "remarkable",
+      "tag": "ADJ"
+    },
+    {
+      "word": "wilderness",
+      "tag": "NOUN"
+    },
+    {
+      "word": "attended",
+      "tag": "VERB"
+    },
+    {
+      "word": "sculpture",
+      "tag": "NOUN"
+    },
+    {
+      "word": "music",
+      "tag": "NOUN"
+    },
+    {
+      "word": "teammate",
+      "tag": "NOUN"
+    },
+    {
+      "word": "impunity",
+      "tag": "NOUN"
+    },
+    {
+      "word": "courteous",
+      "tag": "ADJ"
+    },
+    {
+      "word": "Factory",
+      "tag": "NOUN"
+    },
+    {
+      "word": "state's",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Schwab",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Castro",
+      "tag": "NOUN"
+    },
+    {
+      "word": "local",
+      "tag": "ADJ"
+    },
+    {
+      "word": "slumped",
+      "tag": "VERB"
+    },
+    {
+      "word": "become",
+      "tag": "VERB"
+    },
+    {
+      "word": "address",
+      "tag": "NOUN"
+    },
+    {
+      "word": "administration",
+      "tag": "NOUN"
+    },
+    {
+      "word": "also",
+      "tag": "ADV"
+    },
+    {
+      "word": "beat",
+      "tag": "VERB"
+    },
+    {
+      "word": "Since",
+      "tag": "ADP"
+    },
+    {
+      "word": "President",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Arts",
+      "tag": "NOUN"
+    },
+    {
+      "word": "record",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Legislature",
+      "tag": "NOUN"
+    },
+    {
+      "word": "dying",
+      "tag": "VERB"
+    },
+    {
+      "word": "members",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Noted",
+      "tag": "VERB"
+    },
+    {
+      "word": "long",
+      "tag": "ADJ"
+    },
+    {
+      "word": "boundaries",
+      "tag": "NOUN"
+    },
+    {
+      "word": "knows",
+      "tag": "VERB"
+    },
+    {
+      "word": "tomorrow",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Inauguration",
+      "tag": "NOUN"
+    },
+    {
+      "word": "entire",
+      "tag": "ADJ"
+    },
+    {
+      "word": "perhaps",
+      "tag": "ADV"
+    },
+    {
+      "word": "deadlock",
+      "tag": "NOUN"
+    },
+    {
+      "word": "talent",
+      "tag": "NOUN"
+    },
+    {
+      "word": "doorstep",
+      "tag": "NOUN"
+    },
+    {
+      "word": "call",
+      "tag": "VERB"
+    },
+    {
+      "word": "Tunisian",
+      "tag": "ADJ"
+    },
+    {
+      "word": "monument",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Angelo",
+      "tag": "NOUN"
+    },
+    {
+      "word": "couple",
+      "tag": "NOUN"
+    },
+    {
+      "word": "champion",
+      "tag": "NOUN"
+    },
+    {
+      "word": "although",
+      "tag": "ADP"
+    },
+    {
+      "word": "would",
+      "tag": "VERB"
+    },
+    {
+      "word": "However",
+      "tag": "ADV"
+    },
+    {
+      "word": "could",
+      "tag": "VERB"
+    },
+    {
+      "word": "Marin",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Implementation",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Cuba",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Danger",
+      "tag": "NOUN"
+    },
+    {
+      "word": "steps",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Maris",
+      "tag": "NOUN"
+    },
+    {
+      "word": "stage",
+      "tag": "NOUN"
+    },
+    {
+      "word": "retired",
+      "tag": "VERB"
+    },
+    {
+      "word": "York",
+      "tag": "NOUN"
+    },
+    {
+      "word": "ensembles",
+      "tag": "NOUN"
+    },
+    {
+      "word": "road",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Rules",
+      "tag": "NOUN"
+    },
+    {
+      "word": "approve",
+      "tag": "VERB"
+    },
+    {
+      "word": "night",
+      "tag": "NOUN"
+    },
+    {
+      "word": "paymaster",
+      "tag": "NOUN"
+    },
+    {
+      "word": "lead",
+      "tag": "NOUN"
+    },
+    {
+      "word": "paid",
+      "tag": "VERB"
+    },
+    {
+      "word": "fine",
+      "tag": "ADJ"
+    },
+    {
+      "word": "size",
+      "tag": "VERB"
+    },
+    {
+      "word": "gave",
+      "tag": "VERB"
+    },
+    {
+      "word": "brown",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Parichy",
+      "tag": "NOUN"
+    },
+    {
+      "word": "candidates",
+      "tag": "NOUN"
+    },
+    {
+      "word": "would",
+      "tag": "VERB"
+    },
+    {
+      "word": "equipment",
+      "tag": "NOUN"
+    },
+    {
+      "word": "proposals",
+      "tag": "NOUN"
+    },
+    {
+      "word": "beginning",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Developments",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Sen.",
+      "tag": "NOUN"
+    },
+    {
+      "word": "basis",
+      "tag": "NOUN"
+    },
+    {
+      "word": "heredity",
+      "tag": "NOUN"
+    },
+    {
+      "word": "residents",
+      "tag": "NOUN"
+    },
+    {
+      "word": "always",
+      "tag": "ADV"
+    },
+    {
+      "word": "Paris",
+      "tag": "NOUN"
+    },
+    {
+      "word": "brother",
+      "tag": "NOUN"
+    },
+    {
+      "word": "Sen.",
+      "tag": "NOUN"
+    },
+    {
+      "word": "executive",
+      "tag": "NOUN"
+    },
+    {
+      "word": "shocked",
+      "tag": "VERB"
+    },
+    {
+      "word": "Nations",
+      "tag": "NOUN"
+    },
+    {
+      "word": "layman's",
+      "tag": "NOUN"
+    },
+    {
+      "word": "people",
+      "tag": "NOUN"
+    },
+    {
+      "word": "County",
+      "tag": "NOUN"
+    },
+    {
+      "word": "born",
+      "tag": "VERB"
+    },
+    {
+      "word": "strongest",
+      "tag": "ADJ"
+    },
+    {
+      "word": "lives",
+      "tag": "VERB"
+    },
+    {
+      "word": "Monroe",
+      "tag": "NOUN"
+    },
+    {
+      "word": "first",
+      "tag": "ADJ"
+    },
+    {
+      "word": "sense",
+      "tag": "NOUN"
+    }
+  ]
+}
