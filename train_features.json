@@ -1,0 +1,5480 @@
+{
+  "feature_set": [
+    [
+      {
+        "suffix": "ing"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "are"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "uns"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "tly"
+      },
+      "ADV"
+    ],
+    [
+      {
+        "suffix": "ile"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "edy"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ely"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "nor"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ama"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ent"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "hus"
+      },
+      "ADV"
+    ],
+    [
+      {
+        "suffix": "ess"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "r's"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "zed"
+      },
+      "VERB"
+    ],
+    [
+      {
+        "suffix": "ike"
+      },
+      "ADP"
+    ],
+    [
+      {
+        "suffix": "rst"
+      },
+      "ADJ"
+    ],
+    [
+      {
+        "suffix": "ing"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ess"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ber"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ial"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": ".m."
+      },
+      "ADV"
+    ],
+    [
+      {
+        "suffix": "ity"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "can"
+      },
+      "ADJ"
+    ],
+    [
+      {
+        "suffix": "ies"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ter"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "t's"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "old"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "vis"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ued"
+      },
+      "VERB"
+    ],
+    [
+      {
+        "suffix": "nts"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ven"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ine"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "aft"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "led"
+      },
+      "VERB"
+    ],
+    [
+      {
+        "suffix": "act"
+      },
+      "ADJ"
+    ],
+    [
+      {
+        "suffix": "ice"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "las"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "tes"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "son"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ged"
+      },
+      "VERB"
+    ],
+    [
+      {
+        "suffix": "her"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ing"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ity"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "lly"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ity"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ght"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ing"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ter"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ure"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "m's"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "all"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "her"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ted"
+      },
+      "VERB"
+    ],
+    [
+      {
+        "suffix": "old"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ous"
+      },
+      "ADJ"
+    ],
+    [
+      {
+        "suffix": "ton"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "hiz"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ice"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ist"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ent"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "eed"
+      },
+      "VERB"
+    ],
+    [
+      {
+        "suffix": "rgh"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ing"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "iew"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "gid"
+      },
+      "ADJ"
+    ],
+    [
+      {
+        "suffix": "ime"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ted"
+      },
+      "VERB"
+    ],
+    [
+      {
+        "suffix": "ace"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ead"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ade"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ith"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ult"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ent"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ade"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "one"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ers"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ank"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "t's"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ion"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "hop"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "oke"
+      },
+      "VERB"
+    ],
+    [
+      {
+        "suffix": "ing"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "est"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "lly"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "gry"
+      },
+      "ADJ"
+    ],
+    [
+      {
+        "suffix": "ary"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "son"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ant"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "res"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ick"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ons"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "per"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ade"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ess"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ted"
+      },
+      "VERB"
+    ],
+    [
+      {
+        "suffix": "nce"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ead"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ust"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "acy"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "irt"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "lso"
+      },
+      "ADV"
+    ],
+    [
+      {
+        "suffix": "cer"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "day"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ist"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "r's"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "uch"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "air"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "res"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "kol"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ing"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ing"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ity"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "her"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ely"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ies"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "nal"
+      },
+      "ADJ"
+    ],
+    [
+      {
+        "suffix": "ohn"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "rld"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ing"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "lks"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ker"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "und"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ate"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ing"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ble"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ing"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "zed"
+      },
+      "VERB"
+    ],
+    [
+      {
+        "suffix": "ive"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "xon"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "rst"
+      },
+      "ADJ"
+    ],
+    [
+      {
+        "suffix": "tee"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ent"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "arr"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ork"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ide"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ani"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ead"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "yes"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "aff"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "age"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ent"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "lse"
+      },
+      "ADV"
+    ],
+    [
+      {
+        "suffix": "ons"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ors"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ren"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ter"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "mic"
+      },
+      "ADJ"
+    ],
+    [
+      {
+        "suffix": "ock"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ied"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "rry"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "val"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "day"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ble"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ect"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "yne"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "are"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "evo"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ent"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "nth"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "oid"
+      },
+      "VERB"
+    ],
+    [
+      {
+        "suffix": "red"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "nly"
+      },
+      "ADV"
+    ],
+    [
+      {
+        "suffix": "ren"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ods"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ork"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ars"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ell"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "son"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "uld"
+      },
+      "VERB"
+    ],
+    [
+      {
+        "suffix": "aid"
+      },
+      "VERB"
+    ],
+    [
+      {
+        "suffix": "yer"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ics"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ock"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "uch"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "eat"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "one"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "las"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ete"
+      },
+      "ADJ"
+    ],
+    [
+      {
+        "suffix": "ug."
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "nio"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ion"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ing"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ing"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ing"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ked"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "aid"
+      },
+      "VERB"
+    ],
+    [
+      {
+        "suffix": "nts"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ier"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "rty"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ing"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "een"
+      },
+      "VERB"
+    ],
+    [
+      {
+        "suffix": "ite"
+      },
+      "ADJ"
+    ],
+    [
+      {
+        "suffix": "gic"
+      },
+      "ADJ"
+    ],
+    [
+      {
+        "suffix": "lor"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "rst"
+      },
+      "ADJ"
+    ],
+    [
+      {
+        "suffix": "est"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "m's"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ver"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "che"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "man"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ign"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ght"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ers"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ner"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "aid"
+      },
+      "VERB"
+    ],
+    [
+      {
+        "suffix": "ced"
+      },
+      "VERB"
+    ],
+    [
+      {
+        "suffix": "hed"
+      },
+      "VERB"
+    ],
+    [
+      {
+        "suffix": "ned"
+      },
+      "VERB"
+    ],
+    [
+      {
+        "suffix": "lub"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "and"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ker"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "igh"
+      },
+      "ADJ"
+    ],
+    [
+      {
+        "suffix": "tle"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ion"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ice"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ish"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "bia"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ren"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ick"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "l's"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "rs'"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "any"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ile"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ces"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ial"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "hip"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "rce"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ark"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ing"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ive"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "len"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ble"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "led"
+      },
+      "VERB"
+    ],
+    [
+      {
+        "suffix": "her"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ive"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "nds"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ack"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "sts"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ays"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ory"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "air"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "che"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ers"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ard"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ils"
+      },
+      "VERB"
+    ],
+    [
+      {
+        "suffix": "ies"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ape"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "est"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ion"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ear"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ack"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ent"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ers"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "lic"
+      },
+      "ADJ"
+    ],
+    [
+      {
+        "suffix": "ays"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ees"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "nna"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "nts"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ght"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "rs."
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "her"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "son"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "y's"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ade"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "lus"
+      },
+      "CONJ"
+    ],
+    [
+      {
+        "suffix": "den"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ext"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ief"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "aza"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ual"
+      },
+      "ADJ"
+    ],
+    [
+      {
+        "suffix": "d's"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ana"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ark"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "les"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ily"
+      },
+      "ADV"
+    ],
+    [
+      {
+        "suffix": "rce"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ome"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ust"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ted"
+      },
+      "VERB"
+    ],
+    [
+      {
+        "suffix": "edy"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ley"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "vie"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "bor"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ree"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "lso"
+      },
+      "ADV"
+    ],
+    [
+      {
+        "suffix": ".s."
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "nds"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ark"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ino"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ers"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "rer"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "bor"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "itt"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "tel"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "led"
+      },
+      "VERB"
+    ],
+    [
+      {
+        "suffix": "nce"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "red"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "red"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ded"
+      },
+      "VERB"
+    ],
+    [
+      {
+        "suffix": "lly"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "tor"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "mer"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "cow"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "uth"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ook"
+      },
+      "VERB"
+    ],
+    [
+      {
+        "suffix": "ity"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ent"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "lar"
+      },
+      "ADJ"
+    ],
+    [
+      {
+        "suffix": "ily"
+      },
+      "ADV"
+    ],
+    [
+      {
+        "suffix": "ets"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "nal"
+      },
+      "ADJ"
+    ],
+    [
+      {
+        "suffix": "ein"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ear"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ond"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ond"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ial"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ale"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ges"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ind"
+      },
+      "VERB"
+    ],
+    [
+      {
+        "suffix": "ned"
+      },
+      "VERB"
+    ],
+    [
+      {
+        "suffix": "ing"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "es."
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "und"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "oat"
+      },
+      "ADV"
+    ],
+    [
+      {
+        "suffix": "ing"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "d's"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "nor"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ack"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ion"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ill"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "nse"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "and"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "sed"
+      },
+      "VERB"
+    ],
+    [
+      {
+        "suffix": "nts"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "uld"
+      },
+      "VERB"
+    ],
+    [
+      {
+        "suffix": "nal"
+      },
+      "ADJ"
+    ],
+    [
+      {
+        "suffix": "iz."
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ram"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "td."
+      },
+      "VERB"
+    ],
+    [
+      {
+        "suffix": "n's"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ern"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ist"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ies"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "sed"
+      },
+      "VERB"
+    ],
+    [
+      {
+        "suffix": "dge"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ted"
+      },
+      "VERB"
+    ],
+    [
+      {
+        "suffix": "val"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ame"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ral"
+      },
+      "ADJ"
+    ],
+    [
+      {
+        "suffix": "lly"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "any"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ell"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "cer"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ber"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "nds"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ent"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "est"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "und"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "day"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ers"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ook"
+      },
+      "VERB"
+    ],
+    [
+      {
+        "suffix": "ury"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "mic"
+      },
+      "ADJ"
+    ],
+    [
+      {
+        "suffix": "arm"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ter"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "aid"
+      },
+      "VERB"
+    ],
+    [
+      {
+        "suffix": "ust"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "e's"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "en."
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ain"
+      },
+      "ADJ"
+    ],
+    [
+      {
+        "suffix": "ion"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ies"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ols"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ard"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ast"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ion"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ght"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ock"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "lso"
+      },
+      "ADV"
+    ],
+    [
+      {
+        "suffix": "ing"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ake"
+      },
+      "VERB"
+    ],
+    [
+      {
+        "suffix": "ice"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "der"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ols"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "mes"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "nal"
+      },
+      "ADJ"
+    ],
+    [
+      {
+        "suffix": "tic"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ent"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ake"
+      },
+      "VERB"
+    ],
+    [
+      {
+        "suffix": "ion"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ley"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ied"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "tal"
+      },
+      "ADJ"
+    ],
+    [
+      {
+        "suffix": "ies"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "rge"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "eld"
+      },
+      "VERB"
+    ],
+    [
+      {
+        "suffix": "nth"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ers"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "cis"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ive"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "red"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ing"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ank"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "nal"
+      },
+      "ADJ"
+    ],
+    [
+      {
+        "suffix": "man"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ory"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ugh"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ust"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ces"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "her"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "day"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ons"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "en."
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "omy"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ood"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "mer"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "d's"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "irm"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ays"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ars"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "lks"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ake"
+      },
+      "VERB"
+    ],
+    [
+      {
+        "suffix": "rst"
+      },
+      "ADJ"
+    ],
+    [
+      {
+        "suffix": "ven"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ter"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "sts"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ith"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "lon"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ors"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "kie"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ese"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "hed"
+      },
+      "VERB"
+    ],
+    [
+      {
+        "suffix": "off"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ion"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "tem"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "rds"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ade"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "urt"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "sed"
+      },
+      "VERB"
+    ],
+    [
+      {
+        "suffix": "ess"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ame"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ull"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ish"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "mes"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "tly"
+      },
+      "ADV"
+    ],
+    [
+      {
+        "suffix": "led"
+      },
+      "VERB"
+    ],
+    [
+      {
+        "suffix": "ico"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "int"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ous"
+      },
+      "ADJ"
+    ],
+    [
+      {
+        "suffix": "ont"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "lso"
+      },
+      "ADV"
+    ],
+    [
+      {
+        "suffix": "ter"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ome"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "oys"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ply"
+      },
+      "ADV"
+    ],
+    [
+      {
+        "suffix": "ded"
+      },
+      "VERB"
+    ],
+    [
+      {
+        "suffix": "ing"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "xas"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "tte"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ard"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "tch"
+      },
+      "VERB"
+    ],
+    [
+      {
+        "suffix": "ege"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ing"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ton"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ent"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ess"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ney"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "vel"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ast"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "led"
+      },
+      "VERB"
+    ],
+    [
+      {
+        "suffix": "ack"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "sia"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "tre"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ext"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ome"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ave"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ril"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "uba"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "tes"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ton"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ame"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ote"
+      },
+      "VERB"
+    ],
+    [
+      {
+        "suffix": "and"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ort"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ing"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "cal"
+      },
+      "ADJ"
+    ],
+    [
+      {
+        "suffix": "e's"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "nty"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ked"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ced"
+      },
+      "VERB"
+    ],
+    [
+      {
+        "suffix": "ing"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "y's"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "uld"
+      },
+      "VERB"
+    ],
+    [
+      {
+        "suffix": "ion"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ham"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "tle"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "wed"
+      },
+      "VERB"
+    ],
+    [
+      {
+        "suffix": "sts"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ons"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ves"
+      },
+      "VERB"
+    ],
+    [
+      {
+        "suffix": "nue"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ing"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ded"
+      },
+      "VERB"
+    ],
+    [
+      {
+        "suffix": "est"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ack"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ays"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "wer"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "eme"
+      },
+      "ADJ"
+    ],
+    [
+      {
+        "suffix": "ing"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "nts"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "mic"
+      },
+      "ADJ"
+    ],
+    [
+      {
+        "suffix": "ese"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ent"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "nth"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ely"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "elp"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "old"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "and"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ied"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ked"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "pus"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "way"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "nal"
+      },
+      "ADJ"
+    ],
+    [
+      {
+        "suffix": "ing"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "out"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ord"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "lay"
+      },
+      "VERB"
+    ],
+    [
+      {
+        "suffix": "ine"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ess"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "300"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "sia"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ips"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ney"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ana"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "nce"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "aul"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ast"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "oss"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "val"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "aid"
+      },
+      "VERB"
+    ],
+    [
+      {
+        "suffix": "red"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ney"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "day"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ses"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ism"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ted"
+      },
+      "VERB"
+    ],
+    [
+      {
+        "suffix": "cal"
+      },
+      "ADJ"
+    ],
+    [
+      {
+        "suffix": "ing"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ped"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ive"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "yee"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "las"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ing"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "rse"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "lly"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "oys"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ded"
+      },
+      "VERB"
+    ],
+    [
+      {
+        "suffix": "ame"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "hum"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "how"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ing"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "rge"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ing"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "t's"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ess"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "irm"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ure"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ers"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ppa"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ity"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "nor"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ced"
+      },
+      "VERB"
+    ],
+    [
+      {
+        "suffix": "las"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "lie"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ame"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "les"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "arn"
+      },
+      "VERB"
+    ],
+    [
+      {
+        "suffix": "ing"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ple"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ate"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "let"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "eps"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ped"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "iny"
+      },
+      "ADJ"
+    ],
+    [
+      {
+        "suffix": "les"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "tal"
+      },
+      "ADJ"
+    ],
+    [
+      {
+        "suffix": "nce"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "son"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ose"
+      },
+      "ADV"
+    ],
+    [
+      {
+        "suffix": "a's"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ted"
+      },
+      "VERB"
+    ],
+    [
+      {
+        "suffix": "ise"
+      },
+      "VERB"
+    ],
+    [
+      {
+        "suffix": "lta"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ird"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "red"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ent"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ard"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "aid"
+      },
+      "VERB"
+    ],
+    [
+      {
+        "suffix": "ing"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ice"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ern"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ses"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ted"
+      },
+      "VERB"
+    ],
+    [
+      {
+        "suffix": "ney"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ier"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "vor"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "res"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ive"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ors"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "nce"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "obs"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "nds"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "tor"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ign"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ate"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "eed"
+      },
+      "VERB"
+    ],
+    [
+      {
+        "suffix": "ber"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ugh"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ast"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ham"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ock"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "aps"
+      },
+      "ADV"
+    ],
+    [
+      {
+        "suffix": "ent"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ort"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ust"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ize"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ock"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ong"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ine"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "und"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "led"
+      },
+      "VERB"
+    ],
+    [
+      {
+        "suffix": "kel"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "lty"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "red"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ans"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ate"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "and"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ing"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ent"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "nth"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ies"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "cks"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ked"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ent"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "nce"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ens"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ike"
+      },
+      "ADP"
+    ],
+    [
+      {
+        "suffix": "ive"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "lly"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "rs."
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ver"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ing"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "lus"
+      },
+      "CONJ"
+    ],
+    [
+      {
+        "suffix": "aid"
+      },
+      "VERB"
+    ],
+    [
+      {
+        "suffix": "ion"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ing"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ise"
+      },
+      "VERB"
+    ],
+    [
+      {
+        "suffix": "ers"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ing"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "r's"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ing"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ing"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ama"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "try"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "9.5"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ket"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ast"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ded"
+      },
+      "VERB"
+    ],
+    [
+      {
+        "suffix": "nce"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ous"
+      },
+      "ADJ"
+    ],
+    [
+      {
+        "suffix": "mes"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "rts"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "man"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ern"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ram"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ned"
+      },
+      "VERB"
+    ],
+    [
+      {
+        "suffix": "ire"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ext"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ate"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ams"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ham"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ust"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ber"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ino"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ect"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ost"
+      },
+      "ADJ"
+    ],
+    [
+      {
+        "suffix": "ted"
+      },
+      "VERB"
+    ],
+    [
+      {
+        "suffix": "men"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "end"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ass"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "tor"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "nce"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "nce"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ddy"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ing"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "vel"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ure"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "n's"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "lan"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ary"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "eek"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ood"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "way"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ial"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ice"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ows"
+      },
+      "VERB"
+    ],
+    [
+      {
+        "suffix": "ish"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "uld"
+      },
+      "VERB"
+    ],
+    [
+      {
+        "suffix": "eet"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ngo"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "tra"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ool"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "all"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ion"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "old"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ord"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ary"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ted"
+      },
+      "VERB"
+    ],
+    [
+      {
+        "suffix": "ded"
+      },
+      "VERB"
+    ],
+    [
+      {
+        "suffix": "lly"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "uld"
+      },
+      "VERB"
+    ],
+    [
+      {
+        "suffix": "ers"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "try"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ard"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ing"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ink"
+      },
+      "VERB"
+    ],
+    [
+      {
+        "suffix": "ied"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ate"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "let"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ing"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "int"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "oon"
+      },
+      "ADV"
+    ],
+    [
+      {
+        "suffix": "xon"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ick"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ted"
+      },
+      "VERB"
+    ],
+    [
+      {
+        "suffix": "ses"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ate"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ins"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "way"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ffs"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ied"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "end"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ton"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "urs"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "nic"
+      },
+      "ADJ"
+    ],
+    [
+      {
+        "suffix": "oys"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "sia"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "cit"
+      },
+      "ADJ"
+    ],
+    [
+      {
+        "suffix": "ced"
+      },
+      "VERB"
+    ],
+    [
+      {
+        "suffix": "icy"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ris"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ame"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ems"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "per"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ght"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ile"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "lty"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "set"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ond"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ing"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ted"
+      },
+      "VERB"
+    ],
+    [
+      {
+        "suffix": "ive"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "lls"
+      },
+      "VERB"
+    ],
+    [
+      {
+        "suffix": "aid"
+      },
+      "VERB"
+    ],
+    [
+      {
+        "suffix": "ble"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "rna"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "oss"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "nny"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "rs."
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "vil"
+      },
+      "ADJ"
+    ],
+    [
+      {
+        "suffix": "ted"
+      },
+      "VERB"
+    ],
+    [
+      {
+        "suffix": "tin"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "efs"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "tem"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ion"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ant"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ing"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ion"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ive"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ged"
+      },
+      "VERB"
+    ],
+    [
+      {
+        "suffix": "ter"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "lle"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ads"
+      },
+      "VERB"
+    ],
+    [
+      {
+        "suffix": "hea"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ror"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "let"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ced"
+      },
+      "VERB"
+    ],
+    [
+      {
+        "suffix": "aid"
+      },
+      "VERB"
+    ],
+    [
+      {
+        "suffix": "day"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ate"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "uth"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ers"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "cal"
+      },
+      "ADJ"
+    ],
+    [
+      {
+        "suffix": "erg"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "aid"
+      },
+      "VERB"
+    ],
+    [
+      {
+        "suffix": "ent"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ril"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "cal"
+      },
+      "ADJ"
+    ],
+    [
+      {
+        "suffix": "ers"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ely"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "rol"
+      },
+      "VERB"
+    ],
+    [
+      {
+        "suffix": "nic"
+      },
+      "ADJ"
+    ],
+    [
+      {
+        "suffix": "ned"
+      },
+      "VERB"
+    ],
+    [
+      {
+        "suffix": "und"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ing"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ong"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ds'"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ate"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "man"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "gan"
+      },
+      "VERB"
+    ],
+    [
+      {
+        "suffix": "ade"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ked"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ace"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ent"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "tal"
+      },
+      "ADJ"
+    ],
+    [
+      {
+        "suffix": "eek"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "led"
+      },
+      "VERB"
+    ],
+    [
+      {
+        "suffix": "sed"
+      },
+      "VERB"
+    ],
+    [
+      {
+        "suffix": "lex"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "eet"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "eek"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ays"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ted"
+      },
+      "VERB"
+    ],
+    [
+      {
+        "suffix": "ons"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "efs"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "hop"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "tes"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "day"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ity"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ahr"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ble"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "rse"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ond"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ome"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ned"
+      },
+      "VERB"
+    ],
+    [
+      {
+        "suffix": "ers"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "xas"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "bat"
+      },
+      "VERB"
+    ],
+    [
+      {
+        "suffix": "aks"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ast"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ted"
+      },
+      "VERB"
+    ],
+    [
+      {
+        "suffix": "alk"
+      },
+      "VERB"
+    ],
+    [
+      {
+        "suffix": "del"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ery"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "alm"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "age"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "lds"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "1.4"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ain"
+      },
+      "ADJ"
+    ],
+    [
+      {
+        "suffix": "ent"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "tic"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ent"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ups"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "rea"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ief"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ing"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ast"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "rse"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "nce"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ate"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ion"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ert"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "sed"
+      },
+      "VERB"
+    ],
+    [
+      {
+        "suffix": "haw"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ses"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "rld"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "cow"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ell"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "urt"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "uld"
+      },
+      "VERB"
+    ],
+    [
+      {
+        "suffix": "rto"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "oke"
+      },
+      "VERB"
+    ],
+    [
+      {
+        "suffix": "ill"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ssa"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "mer"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "oke"
+      },
+      "VERB"
+    ],
+    [
+      {
+        "suffix": "lay"
+      },
+      "VERB"
+    ],
+    [
+      {
+        "suffix": "ine"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "nds"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ney"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ied"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "tes"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ght"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "cal"
+      },
+      "ADJ"
+    ],
+    [
+      {
+        "suffix": "eal"
+      },
+      "VERB"
+    ],
+    [
+      {
+        "suffix": "ham"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ice"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ing"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "h's"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ing"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "rry"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ton"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ski"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ets"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ess"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ion"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "ion"
+      },
+      "NOUN"
+    ],
+    [
+      {
+        "suffix": "nce"
+      },
+      "X"
+    ],
+    [
+      {
+        "suffix": "ded"
+      },
+      "VERB"
+    ],
+    [
+      {
+        "suffix": "les"
+      },
+      "NOUN"
+    ]
+  ],
+  "conflicting_features": [
+    "ext",
+    "eet",
+    "ure",
+    "ent",
+    "nth",
+    "lty",
+    "ast",
+    "ish",
+    "est",
+    "uth",
+    "ate",
+    "ign",
+    "tle",
+    "ame",
+    "ard",
+    "ied",
+    "ong",
+    "lks",
+    "ies",
+    "red",
+    "mes",
+    "ead",
+    "ked",
+    "and",
+    "old",
+    "ace",
+    "ive",
+    "ade",
+    "per",
+    "nce",
+    "uch",
+    "ely",
+    "ter",
+    "nor",
+    "ell",
+    "ond",
+    "tic",
+    "r's",
+    "ing",
+    "her",
+    "ble",
+    "ern",
+    "ine",
+    "ugh",
+    "ese",
+    "let",
+    "ver",
+    "ber",
+    "ial",
+    "irm",
+    "rse",
+    "ood",
+    "any",
+    "eek",
+    "oss",
+    "ary",
+    "ord",
+    "way",
+    "ven",
+    "und",
+    "all",
+    "ork",
+    "ght",
+    "res",
+    "ack",
+    "ier",
+    "lly",
+    "ust",
+    "mer",
+    "rge",
+    "ear",
+    "ess",
+    "ped"
+  ],
+  "dataset": "training"
+}
