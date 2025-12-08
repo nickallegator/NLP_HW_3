@@ -295,7 +295,7 @@ really desirable for problem 4.
    feature with 'X'.  Again, save the feature set for reuse as a file.  *Do
    the same for the test set.*
 
-#+begin_src python :results :output
+#+begin_src python :results output
 import json
 import nltk
 from collections import defaultdict
@@ -399,12 +399,159 @@ if __name__ == "__main__":
 
 #+end_src
 #+RESULTS:
+#+begin_example
+Loaded 900 training samples and 100 test samples.
+Dataset: Training
+Total unique suffixes: 370
+Conflicting suffixes: 73
+Examples of conflicting suffixes and their tags:
+  Suffix: ast, Tags: {'ADJ', 'NOUN', 'ADP'}
+  Suffix: ate, Tags: {'ADJ', 'NOUN'}
+  Suffix: ood, Tags: {'NOUN', 'ADJ'}
+  Suffix: all, Tags: {'ADJ', 'NOUN'}
+  Suffix: r's, Tags: {'NOUN', 'DET'}
+Dataset: Test
+Total unique suffixes: 82
+Conflicting suffixes: 1
+Examples of conflicting suffixes and their tags:
+  Suffix: ing, Tags: {'NOUN', 'VERB'}
+
+Feature set examples (first 5 from training):
+  {'suffix': 'ing'} -> X
+  {'suffix': 'are'} -> NOUN
+  {'suffix': 'uns'} -> NOUN
+  {'suffix': 'tly'} -> ADV
+  {'suffix': 'ile'} -> NOUN
+
+Feature sets saved to train_features.json and test_features.json
+
+Summary:
+training set: 900 features, 341 retagged as X
+test set: 100 features, 3 retagged as X
+#+end_example
 
 
 3. [@3] <<bayesian>> Now train a naive Bayes classifier using the one in
    NLTK or scikit-learn on your saved [[fea-set][feature set]] and show its accuracy.
    Show the ten most informative features (for sure you can get this from
    the NLTK naive Bayes classifier).
+
+      #+begin_src python :results output
+import json
+import nltk
+from nltk.classify import NaiveBayesClassifier
+from collections import Counter, defaultdict
+
+
+def load_feature_set(path):
+    with open(path, "r", encoding="utf-8") as f:
+        data = json.load(f)
+
+    feature_set = []
+    for feat_dict, tag in data["feature_set"]:
+        feature_set.append((feat_dict, tag))
+
+    return feature_set
+
+
+def show_custom_informative_suffixes(train_features, n=10):
+    suffix_label_counts = defaultdict(Counter)
+    label_counts = Counter()
+
+    for feats, tag in train_features:
+        suffix = feats["suffix"]
+        suffix_label_counts[suffix][tag] += 1
+        label_counts[tag] += 1
+
+    # Overall label distribution
+    total_labels = sum(label_counts.values())
+    if total_labels == 0:
+        print("\nCustom informative suffixes:")
+        return
+
+    label_probs = {label: count / total_labels for label, count in label_counts.items()}
+
+    scores = []
+    for suffix, counts in suffix_label_counts.items():
+        total_suffix = sum(counts.values())
+        if total_suffix == 0:
+            continue
+
+        for label, count in counts.items():
+            p_l_given_suffix = count / total_suffix
+            p_l = label_probs.get(label, 0.0)
+            if p_l == 0.0:
+                continue
+            ratio = p_l_given_suffix / p_l
+            scores.append(((suffix, label), ratio, count))
+
+    # Sort by how much the suffix boosts the tag probability
+    scores.sort(key=lambda x: x[1], reverse=True)
+
+    print("\nCustom most informative suffixes:")
+    if not scores:
+        print("  (No informative suffixes found under this scoring scheme.)")
+        return
+
+    for (suffix, label), ratio, count in scores[:n]:
+        print(f"suffix={suffix!r:>5} -> {label:>5}   ratio={ratio:6.2f}   count={count}")
+
+
+def main():
+    # Load previously saved feature sets
+    train_features = load_feature_set("train_features.json")
+    test_features = load_feature_set("test_features.json")
+
+    print("Loaded {} training instances and {} test instances."
+          .format(len(train_features), len(test_features)))
+
+    # Train Naive Bayes classifier
+    classifier = NaiveBayesClassifier.train(train_features)
+
+    # Compute accuracy on train and test sets
+    train_accuracy = nltk.classify.accuracy(classifier, train_features)
+    test_accuracy = nltk.classify.accuracy(classifier, test_features)
+
+    print("\nAccuracy:")
+    print("  Training accuracy: {:.4f}".format(train_accuracy))
+    print("  Test accuracy:     {:.4f}".format(test_accuracy))
+
+    # NLTK's default most informative features only print the header due to Q2 retagging
+    print("\nTen most informative features (NLTK view):")
+    classifier.show_most_informative_features(10)
+
+    # Custom informative suffix analysis
+    show_custom_informative_suffixes(train_features, n=10)
+
+
+if __name__ == "__main__":
+    main()
+
+      #+end_src
+      #+RESULTS:
+      #+begin_example
+      Loaded 900 training instances and 100 test instances.
+
+      Accuracy:
+	Training accuracy: 0.9622
+	Test accuracy:     0.6200
+
+      Ten most informative features (NLTK view):
+      Most Informative Features
+
+      Custom most informative suffixes:
+      suffix='ike' ->   ADP   ratio=450.00   count=2
+      suffix='lus' ->  CONJ   ratio=450.00   count=2
+      suffix='tly' ->   ADV   ratio= 52.94   count=2
+      suffix='hus' ->   ADV   ratio= 52.94   count=1
+      suffix='.m.' ->   ADV   ratio= 52.94   count=1
+      suffix='lso' ->   ADV   ratio= 52.94   count=4
+      suffix='lse' ->   ADV   ratio= 52.94   count=1
+      suffix='nly' ->   ADV   ratio= 52.94   count=1
+      suffix='ily' ->   ADV   ratio= 52.94   count=2
+      suffix='oat' ->   ADV   ratio= 52.94   count=1
+      #+end_example
+
 
 
 4. [@4] <<lda>> Continuing with the Bayesian theme of problem [[bayesian]],
