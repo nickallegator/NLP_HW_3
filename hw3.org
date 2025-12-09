@@ -611,6 +611,165 @@ if __name__ == "__main__":
    scikit-learn, or both for this problem: just be sure your code block is
    complete and self-contained.
 
+         #+begin_src python :results output
+	   import random
+	   from collections import Counter
+
+	   import nltk
+	   from nltk.corpus import brown, stopwords
+
+	   def sentence_to_bow(tokens, stopset):
+	       words = []
+	       for w in tokens:
+	           w = w.lower()
+	           if w.isalpha() and w not in stopset:
+	               words.append(w)
+	       return set(words)
+
+
+	   def compute_intersections(anchor_indices, succ_indices, sentences, stopset):
+
+	       sizes = []
+	       for a_idx, s_idx in zip(anchor_indices, succ_indices):
+	           bow_a = sentence_to_bow(sentences[a_idx], stopset)
+	           bow_s = sentence_to_bow(sentences[s_idx], stopset)
+	           sizes.append(len(bow_a & bow_s))
+	       return sizes
+
+	   def summarize(name, sizes):
+	       cnt = Counter(sizes)
+	       total = len(sizes)
+	       mean_val = sum(sizes) / total if total > 0 else 0.0
+	       print(f"{name}:")
+	       print(f"Number of sentence pairs: {total}")
+	       print(f"Mean intersection size:   {mean_val:.3f}")
+	       print(f"Min / Max:                {min(sizes)} / {max(sizes)}")
+	       print("Distribution (intersection size -> count, proportion):")
+	       for k in sorted(cnt.keys()):
+	           print(f"{k:2d}: {cnt[k]:4d} ({cnt[k]/total:6.3f})")
+
+	   def main():
+	       nltk.download("brown")
+	       nltk.download("stopwords")
+	       #Use Brown news sentences
+	       sentences = list(brown.sents(categories="news"))
+	       num_sent = len(sentences)
+	       print(f"Total Brown 'news' sentences: {num_sent}")
+
+	       valid_anchor_indices = list(range(num_sent - 1))
+	       stopset = set(stopwords.words("english"))
+
+	       # For reproducibility
+	       random.seed(42)
+	       n_pairs = 700
+
+	       first_anchors = random.sample(valid_anchor_indices, n_pairs)
+	       first_anchors = sorted(first_anchors)
+	       first_succ = [i + 1 for i in first_anchors]
+
+	       first_anchor_set = set(first_anchors)
+
+	       # Second anchors/control
+	       candidate_second_anchors = [
+	           j for j in valid_anchor_indices
+	           if (j not in first_anchor_set) and ((j + 1) not in first_anchor_set)
+	       ]
+
+	       second_anchors = random.sample(candidate_second_anchors, n_pairs)
+	       second_anchors = sorted(second_anchors)
+	       second_succ = [j + 1 for j in second_anchors]
+
+	       # Baseline and control overlaps
+	       baseline_intersections = compute_intersections(
+	           first_anchors, first_succ, sentences, stopset
+	       )
+	       control_intersections = compute_intersections(
+	           second_anchors, second_succ, sentences, stopset
+	       )
+
+	       indices = list(range(num_sent))
+
+	       while True:
+	           random.shuffle(indices)
+	           pos_of = {orig_idx: pos for pos, orig_idx in enumerate(indices)}
+	           if all(pos_of[a] < num_sent - 1 for a in second_anchors):
+	               break
+
+	       # For each second anchor find its new successor
+	       perm_succ = []
+	       for a_idx in second_anchors:
+	           pos = pos_of[a_idx]
+	           succ_pos = pos + 1
+	           succ_idx = indices[succ_pos]
+	           perm_succ.append(succ_idx)
+
+	       experiment_intersections = compute_intersections(
+	           second_anchors, perm_succ, sentences, stopset
+	       )
+
+	       summarize("Baseline: first anchors and successors", baseline_intersections)
+	       summarize("Control: second anchors and successors", control_intersections)
+	       summarize(
+	           "Experiment: second anchors and new successors (after permutation)",
+	           experiment_intersections,
+	       )
+
+	   if __name__ == "__main__":
+	       main()
+	 #+end_src
+         #+RESULTS:
+	 #+begin_example
+	 Total Brown 'news' sentences: 4623
+	 Baseline: first anchors and successors:
+	 Number of sentence pairs: 700
+	 Mean intersection size:   0.694
+	 Min / Max:                0 / 6
+	 Distribution (intersection size -> count, proportion):
+	  0:  408 ( 0.583)
+	  1:  168 ( 0.240)
+	  2:   79 ( 0.113)
+	  3:   24 ( 0.034)
+	  4:   18 ( 0.026)
+	  5:    2 ( 0.003)
+	  6:    1 ( 0.001)
+	 Control: second anchors and successors:
+	 Number of sentence pairs: 700
+	 Mean intersection size:   0.633
+	 Min / Max:                0 / 7
+	 Distribution (intersection size -> count, proportion):
+	  0:  425 ( 0.607)
+	  1:  168 ( 0.240)
+	  2:   64 ( 0.091)
+	  3:   33 ( 0.047)
+	  4:    5 ( 0.007)
+	  5:    3 ( 0.004)
+	  6:    1 ( 0.001)
+	  7:    1 ( 0.001)
+	 Experiment: second anchors and new successors (after permutation):
+	 Number of sentence pairs: 700
+	 Mean intersection size:   0.054
+	 Min / Max:                0 / 2
+	 Distribution (intersection size -> count, proportion):
+	  0:  664 ( 0.949)
+	  1:   34 ( 0.049)
+	  2:    2 ( 0.003)
+	 #+end_example
+
+         #+begin_example
+	 In the Brown news corpus, neighboring sentences do share some important words, but not a lot.
+	 When we randomize things, the overlap between the neighboring sentences almost disappears. In
+	 the baseline, first anchors and their real successors, the mean intersection size is 0.694
+	 words (0-6) with 58.3% of pairs sharing no significant words and 24% sharing only one word.
+	 The control, second anchors and their real successors, look almost the same with a mean
+	 interaction size of 0.633 words (0-7) with 60.7% pairs at zero overlap and 24% also sharing
+	 only one word. This shows the effect is not simply a side effect of which anchors we picked.
+	 In contrast, in the experiment, second anchors with new permuted successors, the mean
+	 intersection size drops to 0.054 words (0-2) with 94.9% of pairs sharing nothing and almost no
+	 pairs sharing more than one word. The significant drop after shuffling suggests that coherent,
+	 human written news tends to have more local word repetition that random sentence pairs. However
+	 the effect is weak enough that this feature alone would not make a strong classifier.
+         #+end_example
+
 
 
 
