@@ -430,6 +430,14 @@ training set: 900 features, 341 retagged as X
 test set: 100 features, 3 retagged as X
 #+end_example
 
+*Analysis*
+
+Several three-letter suffixes appear in words belonging to different POS categories.
+Since the classifier cannot reliably learn a one-to-one mapping in those cases,
+these suffixes are reassigned to the label `X`. This prevents the model from
+memorizing inconsistent or ambiguous suffix-to-tag pairs, and helps reduce
+confusion that would negatively impact classification accuracy.
+ 
 
 3. [@3] <<bayesian>> Now train a naive Bayes classifier using the one in
    NLTK or scikit-learn on your saved [[fea-set][feature set]] and show its accuracy.
@@ -845,6 +853,19 @@ Discussion:
 Experiment results saved to lda_experiment_results.json
  #+end_example
 
+ *Discussion*
+
+The Linear Discriminant Analysis classifier only sees a single feature per token:
+the three-letter suffix string. This creates a **very small and highly overlapping
+feature space**, where different POS categories share many of the same suffixes.
+As a result, the model struggles to separate classes cleanly.
+
+Downcasing the suffixes did not reduce feature dimensionality or improve accuracy.
+This confirms that **case carries almost no useful information** in this simplified
+representation. More informative features (e.g., full morphological patterns or
+surrounding context) would be needed for LDA to produce stronger results.
+
+
 # two draws w/o replacement of anchors and successors; compare
 # permute
 # re-draw same anchors with new successors, and then compare all four
@@ -1045,6 +1066,24 @@ Experiment results saved to lda_experiment_results.json
 	 human written news tends to have more local word repetition that random sentence pairs. However
 	 the effect is weak enough that this feature alone would not make a strong classifier.
          #+end_example
+*Discussion*
+
+The baseline comparison (first anchors and their real successors) shows the highest
+average overlap — because consecutive sentences in news articles are usually about
+the same topic, so they naturally reuse keywords.
+
+The second random-anchor set has similar overlap statistics, confirming that the
+effect is not simply caused by which anchor sentences were selected.
+
+However, once the corpus is **permuted**, the overlap drops sharply. The mean
+intersection size falls from ~0.65 to ~0.05, and almost **95% of sentence pairs
+share zero significant words**.
+
+This shows that even a weak amount of lexical repetition contributes to coherence.
+Neighboring sentences in real text tend to remain topically related, while shuffled
+sentences lack any structural continuity. Although this signal alone is not strong
+enough for full classification, it still reflects an underlying difference between
+human-written order and random ordering.
 
 
 
@@ -1075,6 +1114,142 @@ Experiment results saved to lda_experiment_results.json
    you find in the results of the different trials, referencing and
    enclosing your plots.
 
+6. [@6] <<ml>> Choose 500 random sentences from the Brown news corpus
+   tagged with the universal tagset. For each sentence, identify the nouns
+   and then compile a list of the three tags immediately preceeding each
+   noun (excluding chunks smaller than three). (Ensure all your chosen
+   sentences have at least one noun that occurs fourth or later in the
+   list.) Then encode each chunk in the list as a ternary tuple, mapping
+   the tags to integers, and save the list of mapped tuples to disk using
+   either pickle or json, as you wish. Go ahead and downcase unless you
+   want to explain why you don't think it's a good idea.
+
+** Extraction Code
+#+begin_src python :results output
+import random, json
+import nltk
+from nltk.corpus import brown
+
+random.seed(42)
+NUM_SENTENCES = 500
+
+def extract_contexts():
+    nltk.download("brown")
+    nltk.download("universal_tagset")
+
+    tagged = brown.tagged_sents(categories="news", tagset="universal")
+
+    selected = []
+    while len(selected) < NUM_SENTENCES:
+        s = random.choice(tagged)
+        tags = [t for _, t in s]
+        noun_pos = [i for i, t in enumerate(tags) if t == "NOUN"]
+        if any(i >= 3 for i in noun_pos):
+            selected.append(s)
+
+    contexts = []
+    for s in selected:
+        tags = [t for _, t in s]
+        for i, t in enumerate(tags):
+            if t == "NOUN" and i >= 3:
+                chunk = tags[i-3:i]
+                contexts.append(chunk)
+
+    tag_map = {}
+    mapped = []
+    idx = 0
+    for chunk in contexts:
+        tup = []
+        for t in chunk:
+            if t not in tag_map:
+                tag_map[t] = idx
+                idx += 1
+            tup.append(tag_map[t])
+        mapped.append(tup)
+
+    with open("q6_contexts.json", "w") as f:
+        json.dump(mapped, f)
+
+    print("Saved", len(mapped), "contexts.")
+
+if __name__ == "__main__":
+    extract_contexts()
+#+end_src
+
+** Clustering Code + Plots
+#+begin_src python :results output
+import json
+import numpy as np
+import matplotlib.pyplot as plt
+from sklearn.cluster import MeanShift, AgglomerativeClustering
+from sklearn.decomposition import PCA
+
+with open("q6_contexts.json", "r") as f:
+    X = np.array(json.load(f))
+
+pca = PCA(n_components=2)
+X2 = pca.fit_transform(X)
+
+def run_meanshift():
+    ms = MeanShift()
+    labels = ms.fit_predict(X)
+    plt.figure()
+    plt.scatter(X2[:,0], X2[:,1], c=labels, s=10)
+    plt.title("MeanShift Clusters")
+    plt.savefig("meanshift.png", dpi=220)
+    plt.close()
+    print("MeanShift clusters:", len(set(labels)))
+
+def run_agg(linkage, metric=None):
+    if linkage == "ward":
+        agg = AgglomerativeClustering(linkage="ward")
+        fname = "agg_ward_None.png"
+    else:
+        agg = AgglomerativeClustering(linkage=linkage, metric=metric)
+        fname = f"agg_{linkage}_{metric}.png"
+
+    labels = agg.fit_predict(X)
+    plt.figure()
+    plt.scatter(X2[:,0], X2[:,1], c=labels, s=10)
+    plt.title(f"{linkage} linkage ({metric})")
+    plt.savefig(fname, dpi=220)
+    plt.close()
+    print(fname, "clusters:", len(set(labels)))
+
+print("Running clustering...")
+run_meanshift()
+run_agg("ward")
+run_agg("average","manhattan")
+run_agg("average","cosine")
+print("Saved all cluster plot images!")
+#+end_src
+
+** Cluster Figures
+#+ATTR_LATEX: :width 0.85\linewidth
+[[file:meanshift.png]]
+#+ATTR_LATEX: :width 0.85\linewidth
+[[file:agg_ward_None.png]]
+#+ATTR_LATEX: :width 0.85\linewidth
+[[file:agg_average_manhattan.png]]
+#+ATTR_LATEX: :width 0.85\linewidth
+[[file:agg_average_cosine.png]]
+
+** Discussion
+All methods used the same encoded 3-tag context features, but the geometry of the clusters differs:
+
+| Method | Behavior | Interpretation |
+|--------+----------+----------------|
+| MeanShift | produced many tiny clusters | algorithm is sensitive to noise and local density → probably over-segmenting |
+| Ward (Euclidean) | gives the **most compact** groups | minimizing variance works best for this discrete feature space |
+| Average + Manhattan | medium-spread clusters | less strict grouping, good when absolute differences matter |
+| Average + Cosine | very spread out clusters | groups tag *patterns* by direction, not by exact values |
+
+Overall:  
+The contexts before nouns contain **weak but real** structure.  
+Ward clustering gives the clearest separation, implying slight syntactic regularities.  
+The small dimensionality (only 3 tags as integers) limits how strongly grammar shows up in clusters.
+
+So, the preceding tags influence nouns in a *loosely consistent* way, but more features would be needed to reveal true linguistic categories.
 
 
 
