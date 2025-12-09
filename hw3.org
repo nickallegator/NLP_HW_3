@@ -405,16 +405,16 @@ Dataset: Training
 Total unique suffixes: 370
 Conflicting suffixes: 73
 Examples of conflicting suffixes and their tags:
-  Suffix: ast, Tags: {'ADJ', 'NOUN', 'ADP'}
-  Suffix: ate, Tags: {'ADJ', 'NOUN'}
-  Suffix: ood, Tags: {'NOUN', 'ADJ'}
-  Suffix: all, Tags: {'ADJ', 'NOUN'}
-  Suffix: r's, Tags: {'NOUN', 'DET'}
+  Suffix: mer, Tags: {'ADJ', 'NOUN'}
+  Suffix: ied, Tags: {'VERB', 'ADJ'}
+  Suffix: her, Tags: {'CONJ', 'ADP', 'DET', 'NOUN'}
+  Suffix: ust, Tags: {'VERB', 'NOUN'}
+  Suffix: tic, Tags: {'ADJ', 'NOUN'}
 Dataset: Test
 Total unique suffixes: 82
 Conflicting suffixes: 1
 Examples of conflicting suffixes and their tags:
-  Suffix: ing, Tags: {'NOUN', 'VERB'}
+  Suffix: ing, Tags: {'VERB', 'NOUN'}
 
 Feature set examples (first 5 from training):
   {'suffix': 'ing'} -> X
@@ -566,283 +566,259 @@ if __name__ == "__main__":
    =score= functions after training and testing the classifier.  Compute
    the LDA with and without downcasing and compare and discuss the results.
 
- #+begin_src python
-import json
-import numpy as np
-from sklearn.discriminant_analysis import LinearDiscriminantAnalysis
-from sklearn.feature_extraction import DictVectorizer
-from sklearn.metrics import classification_report
-from collections import Counter
+ #+begin_src python :results output
+   import json
+   import numpy as np
+   from sklearn.discriminant_analysis import LinearDiscriminantAnalysis
+   from sklearn.feature_extraction import DictVectorizer
+   from sklearn.metrics import classification_report
+   from collections import Counter
 
 
-def load_feature_data():
-    with open('train_features.json', 'r', encoding='utf-8') as f:
-        train_data = json.load(f)
+   def load_feature_data():
+      with open('train_features.json', 'r', encoding='utf-8') as f:
+          train_data = json.load(f)
 
-    with open('test_features.json', 'r', encoding='utf-8') as f:
-        test_data = json.load(f)
+      with open('test_features.json', 'r', encoding='utf-8') as f:
+          test_data = json.load(f)
 
-    return train_data, test_data
+      return train_data, test_data
 
-def prepare_data(feature_set, vectorizer=None, fit_vectorizer=True):
-    features = [feat_dict for feat_dict, _ in feature_set]
-    labels = [tag for _, tag in feature_set]
+   def prepare_data(feature_set, vectorizer=None, fit_vectorizer=True):
+      features = [feat_dict for feat_dict, _ in feature_set]
+      labels = [tag for _, tag in feature_set]
 
-    if vectorizer is None:
-        vectorizer = DictVectorizer(sparse=False)
+      if vectorizer is None:
+          vectorizer = DictVectorizer(sparse=False)
 
-    if fit_vectorizer:
-        X = vectorizer.fit_transform(features)
+      if fit_vectorizer:
+          X = vectorizer.fit_transform(features)
 
-    else:
-        X = vectorizer.transform(features)
+      else:
+          X = vectorizer.transform(features)
 
-    return X, labels, vectorizer
+      return X, labels, vectorizer
 
-def run_lda_experiment(X_train, y_train, X_test, y_test, experiment_name):
-    # run lda classification experiment
-    print(f'\n== {experiment_name} ==')
+   def run_lda_experiment(X_train, y_train, X_test, y_test, experiment_name):
+      # run lda classification experiment
+      print(f'{experiment_name}')
 
-    # lda classifier
-    lda = LinearDiscriminantAnalysis(solver='svd')
+      # lda classifier
+      lda = LinearDiscriminantAnalysis(solver='svd')
 
-    print(f'training LDA on {X_train.shape[0]} samples with {X_train.shape[1]} features...')
-    lda.fit(X_train, y_train)
+      print(f'training LDA on {X_train.shape[0]} samples with {X_train.shape[1]} features...')
+      lda.fit(X_train, y_train)
 
-    # predictions output
-    train_predictions = lda.predict(X_train)
-    test_predictions = lda.predict(X_test)
+      # predictions output
+      train_predictions = lda.predict(X_train)
+      test_predictions = lda.predict(X_test)
 
-    # decision and confidence
+      # decision and confidence
 
-    train_decision = lda.decision_function(X_train)
-    test_decision = lda.decision_function(X_test)
+      train_decision = lda.decision_function(X_train)
+      test_decision = lda.decision_function(X_test)
 
-    # score and accuracy
+      # score and accuracy
 
-    train_score = lda.score(X_train, y_train)
-    test_score = lda.score(X_test, y_test)
+      train_score = lda.score(X_train, y_train)
+      test_score = lda.score(X_test, y_test)
 
-    print(f'Training accuracy: {train_score:.4f}')
-    print(f'Test accuracy: {test_score:.4f}')
+      print(f'Training accuracy: {train_score:.4f}')
+      print(f'Test accuracy: {test_score:.4f}')
 
-    # classification report
-    print('\nClassification Report:')
-    print(classification_report(y_test, test_predictions, zero_division=0))
+      # classification report
+      print('\nClassification Report:')
+      print(classification_report(y_test, test_predictions, zero_division=0))
 
-    # common tags print
+      # common tags print
 
-    print('\nMost common predicted tags in test:')
-    pred_counter = Counter(test_predictions)
-    for tag, count in pred_counter.most_common(10):
-        print(f'  {tag}: {count}')
+      print('\nMost common predicted tags in test:')
+      pred_counter = Counter(test_predictions)
+      for tag, count in pred_counter.most_common(10):
+          print(f'  {tag}: {count}')
 
-    return {
-        'lda_model': lda,
-        'train_decision': train_decision,
-        'test_decision': test_decision,
-        'train_score': train_score,
-        'test_score': test_score,
-        'train_predictions': train_predictions,
-        'test_predictions': test_predictions
-    }
+      return {
+          'lda_model': lda,
+          'train_decision': train_decision,
+          'test_decision': test_decision,
+          'train_score': train_score,
+          'test_score': test_score,
+          'train_predictions': train_predictions,
+          'test_predictions': test_predictions
+      }
 
-def create_downcased_features(feature_set):
-    downcased_set = []
-    for feat_dict, tag in feature_set:
-        new_feat = feat_dict.copy()
-        if 'suffix' in new_feat:
-            new_feat['suffix'] = new_feat['suffix'].lower()
-        downcased_set.append((new_feat, tag))
-    return downcased_set
+   def create_downcased_features(feature_set):
+      downcased_set = []
+      for feat_dict, tag in feature_set:
+          new_feat = feat_dict.copy()
+          if 'suffix' in new_feat:
+              new_feat['suffix'] = new_feat['suffix'].lower()
+          downcased_set.append((new_feat, tag))
+      return downcased_set
 
-def main():
-    print('Loading feature data from problem 2')
-    train_data, test_data = load_feature_data()
+   def main():
+      print('Loading feature data from problem 2')
+      train_data, test_data = load_feature_data()
 
-    train_feature_set = train_data['feature_set']
-    test_feature_set = test_data['feature_set']
+      train_feature_set = train_data['feature_set']
+      test_feature_set = test_data['feature_set']
 
-    print(f'Loaded {len(train_feature_set)} training features')
-    print(f'Loaded {len(test_feature_set)} test features')
+      print(f'Loaded {len(train_feature_set)} training features')
+      print(f'Loaded {len(test_feature_set)} test features')
 
-    # show examples
+      # show examples
 
-    print('\nExample features:')
-    for i in range(min(5, len(train_feature_set))):
-        feat, tag = train_feature_set[i]
-        print(f' {feat} -> {tag}')
+      print('\nExample features:')
+      for i in range(min(5, len(train_feature_set))):
+          feat, tag = train_feature_set[i]
+          print(f' {feat} -> {tag}')
 
-    # experiment 1 with original features
-    print('\n' + '='*50)
-    print('EXPERIMENT 1: Original Features')
-    print('='*50)
+      # experiment 1 with original features
+      print('EXPERIMENT 1: Original Features')
 
-    X_train, y_train, vectorizer = prepare_data(train_feature_set)
-    X_test, y_test, _ = prepare_data(test_feature_set, vectorizer, fit_vectorizer=False)
+      X_train, y_train, vectorizer = prepare_data(train_feature_set)
+      X_test, y_test, _ = prepare_data(test_feature_set, vectorizer, fit_vectorizer=False)
 
-    results_exp1 = run_lda_experiment(X_train, y_train, X_test, y_test, "Experiment 1: Original Features")
+      results_exp1 = run_lda_experiment(X_train, y_train, X_test, y_test, "Experiment 1: Original Features")
 
-    # experiment 2 with downcased features
+      # experiment 2 with downcased features
 
-    print('\n' + '='*50)
-    print('EXPERIMENT 2: Downcased Features')
-    print('='*50)
+      print('EXPERIMENT 2: Downcased Features')
+      train_downcased = create_downcased_features(train_feature_set)
+      test_downcased = create_downcased_features(test_feature_set)
 
-    train_downcased = create_downcased_features(train_feature_set)
-    test_downcased = create_downcased_features(test_feature_set)
+      X_train_down, y_train_down, vectorizer_down = prepare_data(train_downcased)
+      X_test_down, y_test_down, _ = prepare_data(test_downcased, vectorizer_down, fit_vectorizer=False)
 
-    X_train_down, y_train_down, vectorizer_down = prepare_data(train_downcased)
-    X_test_down, y_test_down, _ = prepare_data(test_downcased, vectorizer_down, fit_vectorizer=False)
+      results_exp2 = run_lda_experiment(X_train_down, y_train_down, X_test_down, y_test_down, "Experiment 2: Downcased Features")
 
-    results_exp2 = run_lda_experiment(X_train_down, y_train_down, X_test_down, y_test_down, "Experiment 2: Downcased Features")
+      # results comparison
 
-    # results comparison
+      print("RESULTS COMPARISON")
 
-    print('\n' + '='*50)
-    print("RESULTS COMPARISON")
-    print('='*50)
+      print(f'Experiment 1 Test Accuracy: {results_exp1["test_score"]:.4f}')
+      print(f'Experiment 2 Test Accuracy: {results_exp2["test_score"]:.4f}')
 
-    print(f'Experiment 1 Test Accuracy: {results_exp1["test_score"]:.4f}')
-    print(f'Experiment 2 Test Accuracy: {results_exp2["test_score"]:.4f}')
+      improvement = results_exp2["test_score"] - results_exp1["test_score"]
+      print(f'Accuracy Improvement: {improvement:.4f}')
 
-    improvement = results_exp2["test_score"] - results_exp1["test_score"]
-    print(f'Accuracy Improvement: {improvement:.4f}')
+      print(f'\nFeature space sizes:')
+      print(f' Experiment 1: {X_train.shape[1]} features')
+      print(f' Experiment 2: {X_train_down.shape[1]} features')
 
-    print(f'\nFeature space sizes:')
-    print(f' Experiment 1: {X_train.shape[1]} features')
-    print(f' Experiment 2: {X_train_down.shape[1]} features')
+      print(f'\nDecision function output:')
+      print(f'Original - Train: {results_exp1["train_decision"].shape}, Test: {results_exp1["test_decision"].shape}')
+      print(f'Downcased - Train: {results_exp2["train_decision"].shape}, Test: {results_exp2["test_decision"].shape}')
 
-    print(f'\nDecision function output:')
-    print(f'Original - Train: {results_exp1["train_decision"].shape}, Test: {results_exp1["test_decision"].shape}')
-    print(f'Downcased - Train: {results_exp2["train_decision"].shape}, Test: {results_exp2["test_decision"].shape}')
+      # saving
+      results_summary = {
+          'original': {
+              'train_accuracy': results_exp1['train_score'],
+              'test_accuracy': results_exp1['test_score'],
+              'feature_count': X_train.shape[1]
+          },
+          'downcased': {
+              'train_accuracy': results_exp2['train_score'],
+              'test_accuracy': results_exp2['test_score'],
+              'feature_count': X_train_down.shape[1]
+          },
+          'improvement': improvement
+      }
 
-    #discussion prompt
-    print('\nDiscussion:')
-    print(f'- Downcasing {"improved" if improvement > 0 else "decreased"} accuracy by {abs(improvement):.4f}')
-    print(f'- Feature space was {"reduced" if X_train_down.shape[1] < X_train.shape[1] else "same size"}')
-    print(f'- This suggests that case {"does" if abs(improvement) > 0.01 else "does not"} significantly affect suffix-based POS tagging')
+      with open('lda_experiment_results.json', 'w', encoding='utf-8') as f:
+          json.dump(results_summary, f, indent=2)
 
-    if X_train.shape[1] < X_train_down.shape[1]:
-        print(f'- Reducing feature space from {X_train_down.shape[1]} to {X_train.shape[1]} features')
-        print(f'   helps reducing overfitting and improves generalization')
+      print('\nExperiment results saved to lda_experiment_results.json')
 
-    # saving
-    results_summary = {
-        'original': {
-            'train_accuracy': results_exp1['train_score'],
-            'test_accuracy': results_exp1['test_score'],
-            'feature_count': X_train.shape[1]
-        },
-        'downcased': {
-            'train_accuracy': results_exp2['train_score'],
-            'test_accuracy': results_exp2['test_score'],
-            'feature_count': X_train_down.shape[1]
-        },
-        'improvement': improvement
-    }
-
-    with open('lda_experiment_results.json', 'w', encoding='utf-8') as f:
-        json.dump(results_summary, f, indent=2)
-
-    print('\nExperiment results saved to lda_experiment_results.json')
-
-if __name__ == '__main__':
-    main()
+   if __name__ == '__main__':
+      main()
  #+end_src
 
  #+RESULTS:
  #+begin_example
  Loading feature data from problem 2
-Loaded 900 training features
-Loaded 100 test features
+ Loaded 900 training features
+ Loaded 100 test features
 
-Example features:
- {'suffix': 'ing'} -> X
- {'suffix': 'are'} -> NOUN
- {'suffix': 'uns'} -> NOUN
- {'suffix': 'tly'} -> ADV
- {'suffix': 'ile'} -> NOUN
+ Example features:
+  {'suffix': 'ing'} -> X
+  {'suffix': 'are'} -> NOUN
+  {'suffix': 'uns'} -> NOUN
+  {'suffix': 'tly'} -> ADV
+  {'suffix': 'ile'} -> NOUN
+ EXPERIMENT 1: Original Features
+ Experiment 1: Original Features
+ training LDA on 900 samples with 370 features...
+ Training accuracy: 0.4933
+ Test accuracy: 0.6800
 
-==================================================
-EXPERIMENT 1: Original Features
-==================================================
+ Classification Report:
+	       precision    recall  f1-score   support
 
-== Experiment 1: Original Features ==
-training LDA on 900 samples with 370 features...
-Training accuracy: 0.4933
-Test accuracy: 0.6800
+	  ADJ       0.00      0.00      0.00         9
+	  ADP       0.00      0.00      0.00         2
+	  ADV       1.00      0.25      0.40         4
+	 NOUN       0.67      1.00      0.80        64
+	 VERB       0.00      0.00      0.00        18
+	    X       1.00      1.00      1.00         3
 
-Classification Report:
-              precision    recall  f1-score   support
-
-         ADJ       0.00      0.00      0.00         9
-         ADP       0.00      0.00      0.00         2
-         ADV       1.00      0.25      0.40         4
-        NOUN       0.67      1.00      0.80        64
-        VERB       0.00      0.00      0.00        18
-           X       1.00      1.00      1.00         3
-
-    accuracy                           0.68       100
-   macro avg       0.44      0.38      0.37       100
-weighted avg       0.50      0.68      0.56       100
+     accuracy                           0.68       100
+    macro avg       0.44      0.38      0.37       100
+ weighted avg       0.50      0.68      0.56       100
 
 
-Most common predicted tags in test:
-  NOUN: 96
-  X: 3
-  ADV: 1
+ Most common predicted tags in test:
+   NOUN: 96
+   X: 3
+   ADV: 1
+ EXPERIMENT 2: Downcased Features
+ Experiment 2: Downcased Features
+ training LDA on 900 samples with 370 features...
+ Training accuracy: 0.4933
+ Test accuracy: 0.6800
 
-==================================================
-EXPERIMENT 2: Downcased Features
-==================================================
+ Classification Report:
+	       precision    recall  f1-score   support
 
-== Experiment 2: Downcased Features ==
-training LDA on 900 samples with 370 features...
-Training accuracy: 0.4933
-Test accuracy: 0.6800
+	  ADJ       0.00      0.00      0.00         9
+	  ADP       0.00      0.00      0.00         2
+	  ADV       1.00      0.25      0.40         4
+	 NOUN       0.67      1.00      0.80        64
+	 VERB       0.00      0.00      0.00        18
+	    X       1.00      1.00      1.00         3
 
-Classification Report:
-              precision    recall  f1-score   support
-
-         ADJ       0.00      0.00      0.00         9
-         ADP       0.00      0.00      0.00         2
-         ADV       1.00      0.25      0.40         4
-        NOUN       0.67      1.00      0.80        64
-        VERB       0.00      0.00      0.00        18
-           X       1.00      1.00      1.00         3
-
-    accuracy                           0.68       100
-   macro avg       0.44      0.38      0.37       100
-weighted avg       0.50      0.68      0.56       100
+     accuracy                           0.68       100
+    macro avg       0.44      0.38      0.37       100
+ weighted avg       0.50      0.68      0.56       100
 
 
-Most common predicted tags in test:
-  NOUN: 96
-  X: 3
-  ADV: 1
+ Most common predicted tags in test:
+   NOUN: 96
+   X: 3
+   ADV: 1
+ RESULTS COMPARISON
+ Experiment 1 Test Accuracy: 0.6800
+ Experiment 2 Test Accuracy: 0.6800
+ Accuracy Improvement: 0.0000
 
-==================================================
-RESULTS COMPARISON
-==================================================
-Experiment 1 Test Accuracy: 0.6800
-Experiment 2 Test Accuracy: 0.6800
-Accuracy Improvement: 0.0000
+ Feature space sizes:
+  Experiment 1: 370 features
+  Experiment 2: 370 features
 
-Feature space sizes:
- Experiment 1: 370 features
- Experiment 2: 370 features
+ Decision function output:
+ Original - Train: (900, 7), Test: (100, 7)
+ Downcased - Train: (900, 7), Test: (100, 7)
 
-Decision function output:
-Original - Train: (900, 7), Test: (100, 7)
-Downcased - Train: (900, 7), Test: (100, 7)
+ Experiment results saved to lda_experiment_results.json
+ #+end_example
 
-Discussion:
-- Downcasing decreased accuracy by 0.0000
-- Feature space was same size
-- This suggests that case does not significantly affect suffix-based POS tagging
-
-Experiment results saved to lda_experiment_results.json
+ #+begin_example
+ LDA with and without downcasing yields identical test accuracy (0.68) and the same number of
+ features (370). This suggests that case information is not adding useful signal to these three
+ letter suffix features. This is likely because most Brown news tokens are already lowercase
+ and suffixes are mostly unaffected by capitalization. The classifier heavily favors NOUN and X,
+ with very low recall for ADJ, ADP, and VERB, indicating that suffix alone is a weak predictor
+ for many POS tags.
  #+end_example
 
 # two draws w/o replacement of anchors and successors; compare
@@ -927,7 +903,7 @@ Experiment results saved to lda_experiment_results.json
 	   def main():
 	       nltk.download("brown")
 	       nltk.download("stopwords")
-	       #Use Brown news sentences
+	       # Use Brown news sentences
 	       sentences = list(brown.sents(categories="news"))
 	       num_sent = len(sentences)
 	       print(f"Total Brown 'news' sentences: {num_sent}")
@@ -939,16 +915,18 @@ Experiment results saved to lda_experiment_results.json
 	       random.seed(42)
 	       n_pairs = 700
 
+	       # ----- First anchors + successors -----
 	       first_anchors = random.sample(valid_anchor_indices, n_pairs)
 	       first_anchors = sorted(first_anchors)
 	       first_succ = [i + 1 for i in first_anchors]
 
-	       first_anchor_set = set(first_anchors)
+	       # All indices already used by first anchors and their successors
+	       first_used = set(first_anchors) | set(first_succ)
 
-	       # Second anchors/control
+	       # ----- Second anchors/control -----
 	       candidate_second_anchors = [
 	           j for j in valid_anchor_indices
-	           if (j not in first_anchor_set) and ((j + 1) not in first_anchor_set)
+	           if (j not in first_used) and ((j + 1) not in first_used)
 	       ]
 
 	       second_anchors = random.sample(candidate_second_anchors, n_pairs)
@@ -990,6 +968,7 @@ Experiment results saved to lda_experiment_results.json
 	           experiment_intersections,
 	       )
 
+
 	   if __name__ == "__main__":
 	       main()
 	 #+end_src
@@ -1010,25 +989,25 @@ Experiment results saved to lda_experiment_results.json
 	  6:    1 ( 0.001)
 	 Control: second anchors and successors:
 	 Number of sentence pairs: 700
-	 Mean intersection size:   0.633
+	 Mean intersection size:   0.646
 	 Min / Max:                0 / 7
 	 Distribution (intersection size -> count, proportion):
-	  0:  425 ( 0.607)
-	  1:  168 ( 0.240)
-	  2:   64 ( 0.091)
-	  3:   33 ( 0.047)
-	  4:    5 ( 0.007)
+	  0:  419 ( 0.599)
+	  1:  164 ( 0.234)
+	  2:   79 ( 0.113)
+	  3:   30 ( 0.043)
+	  4:    3 ( 0.004)
 	  5:    3 ( 0.004)
 	  6:    1 ( 0.001)
 	  7:    1 ( 0.001)
 	 Experiment: second anchors and new successors (after permutation):
 	 Number of sentence pairs: 700
-	 Mean intersection size:   0.054
+	 Mean intersection size:   0.064
 	 Min / Max:                0 / 2
 	 Distribution (intersection size -> count, proportion):
-	  0:  664 ( 0.949)
-	  1:   34 ( 0.049)
-	  2:    2 ( 0.003)
+	  0:  658 ( 0.940)
+	  1:   39 ( 0.056)
+	  2:    3 ( 0.004)
 	 #+end_example
 
          #+begin_example
@@ -1074,6 +1053,233 @@ Experiment results saved to lda_experiment_results.json
    and "manhattan" and "cosine" for the metric.  Discuss the differences
    you find in the results of the different trials, referencing and
    enclosing your plots.
+
+   #+begin_src python :results output
+     import random, json
+     import nltk
+     from nltk.corpus import brown
+     from sklearn.preprocessing import LabelEncoder
+
+     NUM_SENTENCES = 500
+     random.seed(42)
+
+     def extract_contexts():
+         nltk.download("brown")
+         nltk.download("universal_tagset")
+
+         # Make it indexable
+         tagged = list(brown.tagged_sents(categories="news", tagset="universal"))
+
+         # Precompute which sentence indices are eligible
+         candidate_indices = []
+         for idx, s in enumerate(tagged):
+             tags = [t for _, t in s]
+             noun_pos = [i for i, t in enumerate(tags) if t == "NOUN"]
+             if any(i >= 3 for i in noun_pos):
+                 candidate_indices.append(idx)
+
+         if len(candidate_indices) < NUM_SENTENCES:
+             raise ValueError(
+                 f"Not enough sentences with a noun at position ≥ 3 "
+                 f"({len(candidate_indices)} found, need {NUM_SENTENCES})."
+             )
+
+         # Sample sentences WITHOUT replacement
+         selected_indices = random.sample(candidate_indices, NUM_SENTENCES)
+         selected_indices = sorted(selected_indices)
+         selected = [tagged[i] for i in selected_indices]
+
+         # Build contexts: three tags immediately before each noun at index ≥ 3
+         contexts = []
+         for s in selected:
+             tags = [t for _, t in s]
+             for i in range(3, len(tags)):
+                 if tags[i] == "NOUN":
+                     contexts.append(tags[i-3:i])
+
+         # Encode tags as integers
+         flat_tags = [t for ctx in contexts for t in ctx]
+         le = LabelEncoder()
+         le.fit(flat_tags)
+
+         encoded = [le.transform(ctx).tolist() for ctx in contexts]
+         with open("q6_contexts.json", "w") as f:
+             json.dump(encoded, f, indent=2)
+
+         print("Saved", len(encoded), "encoded chunks to q6_contexts.json")
+
+     extract_contexts()
+
+
+   #+end_src
+   #+RESULTS:
+   : Saved 3160 encoded chunks to q6_contexts.json
+
+   #+begin_src python :results output
+     import json
+     import numpy as np
+     import matplotlib.pyplot as plt
+     from sklearn.cluster import MeanShift, estimate_bandwidth, AgglomerativeClustering
+     from sklearn.decomposition import PCA
+     from sklearn.metrics import silhouette_score
+
+     # Load encoded tag context tuples
+     with open("q6_contexts.json", "r") as f:
+         X = np.array(json.load(f))
+
+     # Reduce to 2D for plotting
+     pca = PCA(n_components=2)
+     X2 = pca.fit_transform(X)
+
+
+     def run_meanshift():
+         # Explicitly estimate a bandwidth instead of relying on defaults
+         bandwidth = estimate_bandwidth(X, quantile=0.3, n_samples=500)
+         ms = MeanShift(bandwidth=bandwidth, bin_seeding=True)
+         labels = ms.fit_predict(X)
+
+         plt.figure()
+         plt.scatter(X2[:, 0], X2[:, 1], c=labels, s=10)
+         plt.title(f"MeanShift Clusters (bandwidth={bandwidth:.3f})")
+         plt.savefig("meanshift.png", dpi=220)
+         plt.close()
+
+         print("MeanShift bandwidth:", bandwidth)
+         print("MeanShift clusters:", len(set(labels)))
+
+
+     def run_agg(linkage, metric=None, k_values=range(2, 7)):
+
+         # Try k from 2-6
+         print(f"\nAgglomerativeClustering: linkage={linkage}, metric={metric}")
+
+         best_k = None
+         best_score = -1.0
+         best_labels = None
+
+         for k in k_values:
+             if linkage == "ward":
+                 # Ward requires Euclidean and does not take metric argument
+                 agg = AgglomerativeClustering(n_clusters=k, linkage="ward")
+                 metric_label = "euclidean"
+             else:
+                 agg = AgglomerativeClustering(
+                     n_clusters=k,
+                     linkage=linkage,
+                     metric=metric,
+                 )
+                 metric_label = metric
+
+             labels = agg.fit_predict(X)
+
+             # If it collapses to 1 cluster, silhouette is undefined; skip.
+             if len(set(labels)) < 2:
+                 print(f"  k={k}: only one cluster, skipping silhouette.")
+                 continue
+
+             score = silhouette_score(X, labels)
+             print(f"  k={k}: silhouette={score:.4f}")
+
+             if score > best_score:
+                 best_score = score
+                 best_k = k
+                 best_labels = labels
+
+         print(f"Best k for linkage={linkage}, metric={metric}: {best_k} (silhouette={best_score:.4f})")
+
+         # Plot using the best k
+         plt.figure()
+         title_metric = metric_label if linkage == "ward" else metric
+         plt.scatter(X2[:, 0], X2[:, 1], c=best_labels, s=10)
+         plt.title(f"{linkage} linkage ({title_metric}), k={best_k}")
+         fname_metric = "euclidean" if linkage == "ward" else metric
+         plt.savefig(f"agg_{linkage}_{fname_metric}_k{best_k}.png", dpi=220)
+         plt.close()
+
+         print(f"Saved plot: agg_{linkage}_{fname_metric}_k{best_k}.png")
+
+
+     if __name__ == "__main__":
+
+         run_meanshift()
+         run_agg("ward")
+         run_agg("average", "manhattan")
+         run_agg("average", "cosine")
+
+
+   #+end_src
+   #+RESULTS:
+   #+begin_example
+   MeanShift bandwidth: 5.436697644204795
+   MeanShift clusters: 1
+
+   AgglomerativeClustering: linkage=ward, metric=None
+     k=2: silhouette=0.2256
+     k=3: silhouette=0.2602
+     k=4: silhouette=0.3158
+     k=5: silhouette=0.3293
+     k=6: silhouette=0.3445
+   Best k for linkage=ward, metric=None: 6 (silhouette=0.3445)
+   Saved plot: agg_ward_euclidean_k6.png
+
+   AgglomerativeClustering: linkage=average, metric=manhattan
+     k=2: silhouette=0.2446
+     k=3: silhouette=0.2449
+     k=4: silhouette=0.3090
+     k=5: silhouette=0.2866
+     k=6: silhouette=0.3133
+   Best k for linkage=average, metric=manhattan: 6 (silhouette=0.3133)
+   Saved plot: agg_average_manhattan_k6.png
+
+   AgglomerativeClustering: linkage=average, metric=cosine
+     k=2: silhouette=0.2878
+     k=3: silhouette=0.2608
+     k=4: silhouette=0.2509
+     k=5: silhouette=0.2198
+     k=6: silhouette=0.2776
+   Best k for linkage=average, metric=cosine: 2 (silhouette=0.2878)
+   Saved plot: agg_average_cosine_k2.png
+   #+end_example
+
+#+caption: MeanShift clustering of Brown tag-context encodings
+#+name: q6-meanshift
+#+attr_latex: :placement [!t]
+[[./meanshift.png]]
+
+#+caption: Agglomerative clustering with ward linkage (Euclidean)
+#+name: q6-agg-ward
+#+attr_latex: :placement [!t]
+[[./agg_ward_euclidean_k6.png]]
+
+#+caption: Agglomerative clustering with average linkage and Manhattan metric
+#+name: q6-agg-average-manhattan
+#+attr_latex: :placement [!t]
+[[./agg_average_manhattan_k6.png]]
+
+#+caption: Agglomerative clustering with average linkage and cosine metric
+#+name: q6-agg-average-cosine
+#+attr_latex: :placement [!t]
+[[./agg_average_cosine_k2.png]]
+
+ #+begin_example
+ We took 3,178 three tag contexts before nouns from 500 Brown “news” sentences and mapped them
+ into a 3D tag space. After which we projected them into 2D space with PCA to visualize them
+ easier. When we ran MeanShift with the default settings we only produced a single cluster.
+ However, the different versions of AgglomerativeClustering each showed two groups in the space.
+ AgglomerativeClustering with ward linkage and Euclidean distance breaks the points into two
+ intertwined clouds where one shows up more towards the bottom right and one more towards the
+ top left. AgglomerativeClustering with average linkage and Manhattan distance creates two far
+ less intertwined groups divided horizontally with a large bias towards the bottom group.
+ AgglomerativeClustering with average linkage and cosine distance produces clouds that resemble
+ the distribution of AgglomerativeClustering with ward linkage and Euclidean distance, with one
+ group showing up more towards the top left and the other the bottom right, but has a far cleaner
+ separation between the two groups. This shows that there is some weak structure in these tag
+ context prevalent enough for the AgglomeritiveClustering to find two cluster solutions, however
+ the exact boundary is determined by its respective distance. Additionally, these findings show
+ that MeanShift’s behavior with only three POS tags per point has density that is too smooth to
+ find multiple clusters without tweaking the bandwidth.
+ #+end_example
+
 
 
 
