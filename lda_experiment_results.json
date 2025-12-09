@@ -1,0 +1,13 @@
+{
+  "original": {
+    "train_accuracy": 0.49333333333333335,
+    "test_accuracy": 0.68,
+    "feature_count": 370
+  },
+  "downcased": {
+    "train_accuracy": 0.49333333333333335,
+    "test_accuracy": 0.68,
+    "feature_count": 370
+  },
+  "improvement": 0.0
+}
